@@ -36,7 +36,7 @@ namespace Resurtant_project
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(188, 313);
+            this.BackButton.Location = new System.Drawing.Point(101, 213);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(75, 23);
             this.BackButton.TabIndex = 8;
@@ -45,9 +45,10 @@ namespace Resurtant_project
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(519, 313);
+            this.NextButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NextButton.Location = new System.Drawing.Point(373, 205);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(75, 23);
+            this.NextButton.Size = new System.Drawing.Size(79, 35);
             this.NextButton.TabIndex = 7;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@ namespace Resurtant_project
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(345, 130);
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.radioButton1.Location = new System.Drawing.Point(240, 76);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(94, 19);
+            this.radioButton1.Size = new System.Drawing.Size(116, 24);
             this.radioButton1.TabIndex = 10;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "BranchName";
@@ -67,7 +69,8 @@ namespace Resurtant_project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(622, 394);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.NextButton);

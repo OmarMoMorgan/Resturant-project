@@ -41,84 +41,85 @@
             // 
             // NameLabel
             // 
-            this.NameLabel.Location = new System.Drawing.Point(26, 50);
+            this.NameLabel.Location = new System.Drawing.Point(23, 47);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(146, 23);
+            this.NameLabel.Size = new System.Drawing.Size(128, 22);
             this.NameLabel.TabIndex = 1;
             this.NameLabel.Text = "Name";
             this.NameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // jobLabel
             // 
-            this.jobLabel.Location = new System.Drawing.Point(26, 93);
+            this.jobLabel.Location = new System.Drawing.Point(23, 87);
             this.jobLabel.Name = "jobLabel";
-            this.jobLabel.Size = new System.Drawing.Size(146, 23);
+            this.jobLabel.Size = new System.Drawing.Size(128, 22);
             this.jobLabel.TabIndex = 2;
             this.jobLabel.Text = "Job";
             this.jobLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // joiningDateLabel
             // 
-            this.joiningDateLabel.Location = new System.Drawing.Point(26, 135);
+            this.joiningDateLabel.Location = new System.Drawing.Point(23, 127);
             this.joiningDateLabel.Name = "joiningDateLabel";
-            this.joiningDateLabel.Size = new System.Drawing.Size(146, 23);
+            this.joiningDateLabel.Size = new System.Drawing.Size(128, 22);
             this.joiningDateLabel.TabIndex = 3;
             this.joiningDateLabel.Text = "Joining Date";
             this.joiningDateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // salaryLabel
             // 
-            this.salaryLabel.Location = new System.Drawing.Point(26, 175);
+            this.salaryLabel.Location = new System.Drawing.Point(23, 164);
             this.salaryLabel.Name = "salaryLabel";
-            this.salaryLabel.Size = new System.Drawing.Size(146, 23);
+            this.salaryLabel.Size = new System.Drawing.Size(128, 22);
             this.salaryLabel.TabIndex = 4;
             this.salaryLabel.Text = "Salary";
             this.salaryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(178, 51);
+            this.nameTextBox.Location = new System.Drawing.Point(156, 48);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(122, 22);
+            this.nameTextBox.Size = new System.Drawing.Size(107, 23);
             this.nameTextBox.TabIndex = 5;
             // 
             // joiningDateTextBox
             // 
-            this.joiningDateTextBox.Location = new System.Drawing.Point(178, 136);
+            this.joiningDateTextBox.Location = new System.Drawing.Point(156, 128);
             this.joiningDateTextBox.Name = "joiningDateTextBox";
-            this.joiningDateTextBox.Size = new System.Drawing.Size(122, 22);
+            this.joiningDateTextBox.Size = new System.Drawing.Size(107, 23);
             this.joiningDateTextBox.TabIndex = 6;
             // 
             // salaryTextBox
             // 
-            this.salaryTextBox.Location = new System.Drawing.Point(178, 176);
+            this.salaryTextBox.Location = new System.Drawing.Point(156, 165);
             this.salaryTextBox.Name = "salaryTextBox";
-            this.salaryTextBox.Size = new System.Drawing.Size(122, 22);
+            this.salaryTextBox.Size = new System.Drawing.Size(107, 23);
             this.salaryTextBox.TabIndex = 7;
             // 
             // jobComboBox
             // 
             this.jobComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.jobComboBox.FormattingEnabled = true;
-            this.jobComboBox.Location = new System.Drawing.Point(178, 92);
+            this.jobComboBox.Location = new System.Drawing.Point(156, 86);
             this.jobComboBox.Name = "jobComboBox";
-            this.jobComboBox.Size = new System.Drawing.Size(121, 24);
+            this.jobComboBox.Size = new System.Drawing.Size(106, 23);
             this.jobComboBox.TabIndex = 8;
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(92, 226);
+            this.addButton.Location = new System.Drawing.Point(80, 212);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(134, 30);
+            this.addButton.Size = new System.Drawing.Size(117, 28);
             this.addButton.TabIndex = 9;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = true;
             // 
             // addEmplyeeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(336, 287);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(294, 269);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.jobComboBox);
             this.Controls.Add(this.salaryTextBox);

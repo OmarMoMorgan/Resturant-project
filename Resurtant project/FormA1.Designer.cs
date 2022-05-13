@@ -38,63 +38,67 @@
             // 
             // branchNameLabel
             // 
-            this.branchNameLabel.Location = new System.Drawing.Point(131, 34);
+            this.branchNameLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.branchNameLabel.Location = new System.Drawing.Point(115, 32);
             this.branchNameLabel.Name = "branchNameLabel";
-            this.branchNameLabel.Size = new System.Drawing.Size(146, 23);
+            this.branchNameLabel.Size = new System.Drawing.Size(128, 22);
             this.branchNameLabel.TabIndex = 0;
             this.branchNameLabel.Text = "Branch Name";
             this.branchNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // capacityLabel
             // 
-            this.capacityLabel.Location = new System.Drawing.Point(131, 74);
+            this.capacityLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.capacityLabel.Location = new System.Drawing.Point(115, 75);
             this.capacityLabel.Name = "capacityLabel";
-            this.capacityLabel.Size = new System.Drawing.Size(146, 23);
+            this.capacityLabel.Size = new System.Drawing.Size(128, 22);
             this.capacityLabel.TabIndex = 1;
             this.capacityLabel.Text = "Capacity";
             this.capacityLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // numofEmployeesLabel
             // 
-            this.numofEmployeesLabel.Location = new System.Drawing.Point(131, 109);
+            this.numofEmployeesLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.numofEmployeesLabel.Location = new System.Drawing.Point(115, 122);
             this.numofEmployeesLabel.Name = "numofEmployeesLabel";
-            this.numofEmployeesLabel.Size = new System.Drawing.Size(146, 23);
+            this.numofEmployeesLabel.Size = new System.Drawing.Size(128, 22);
             this.numofEmployeesLabel.TabIndex = 2;
             this.numofEmployeesLabel.Text = "#Employees";
             this.numofEmployeesLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // historyButton
             // 
-            this.historyButton.Location = new System.Drawing.Point(61, 155);
+            this.historyButton.Location = new System.Drawing.Point(54, 187);
             this.historyButton.Name = "historyButton";
-            this.historyButton.Size = new System.Drawing.Size(111, 35);
+            this.historyButton.Size = new System.Drawing.Size(97, 33);
             this.historyButton.TabIndex = 3;
             this.historyButton.Text = "History";
             this.historyButton.UseVisualStyleBackColor = true;
             // 
             // employeesButton
             // 
-            this.employeesButton.Location = new System.Drawing.Point(239, 155);
+            this.employeesButton.Location = new System.Drawing.Point(210, 187);
             this.employeesButton.Name = "employeesButton";
-            this.employeesButton.Size = new System.Drawing.Size(111, 35);
+            this.employeesButton.Size = new System.Drawing.Size(97, 33);
             this.employeesButton.TabIndex = 4;
             this.employeesButton.Text = "Emolyees";
             this.employeesButton.UseVisualStyleBackColor = true;
             // 
             // profitsButton
             // 
-            this.profitsButton.Location = new System.Drawing.Point(153, 205);
+            this.profitsButton.Location = new System.Drawing.Point(135, 234);
             this.profitsButton.Name = "profitsButton";
-            this.profitsButton.Size = new System.Drawing.Size(111, 35);
+            this.profitsButton.Size = new System.Drawing.Size(97, 33);
             this.profitsButton.TabIndex = 5;
             this.profitsButton.Text = "Profits";
             this.profitsButton.UseVisualStyleBackColor = true;
             // 
             // FormA1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 252);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(377, 298);
             this.Controls.Add(this.profitsButton);
             this.Controls.Add(this.employeesButton);
             this.Controls.Add(this.historyButton);
