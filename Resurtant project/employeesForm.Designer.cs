@@ -40,17 +40,18 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightGray;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.employeeColumn,
             this.dateColumn,
             this.jobColumn,
             this.salaryColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(77, 50);
+            this.dataGridView1.Location = new System.Drawing.Point(67, 47);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(554, 306);
+            this.dataGridView1.Size = new System.Drawing.Size(485, 261);
             this.dataGridView1.TabIndex = 0;
             // 
             // employeeColumn
@@ -87,27 +88,28 @@
             // 
             // editButton
             // 
-            this.editButton.Location = new System.Drawing.Point(300, 362);
+            this.editButton.Location = new System.Drawing.Point(262, 339);
             this.editButton.Name = "editButton";
-            this.editButton.Size = new System.Drawing.Size(99, 37);
+            this.editButton.Size = new System.Drawing.Size(87, 35);
             this.editButton.TabIndex = 1;
             this.editButton.Text = "Edit";
             this.editButton.UseVisualStyleBackColor = true;
             // 
             // addEmployeeButton
             // 
-            this.addEmployeeButton.Location = new System.Drawing.Point(459, 362);
+            this.addEmployeeButton.Location = new System.Drawing.Point(402, 339);
             this.addEmployeeButton.Name = "addEmployeeButton";
-            this.addEmployeeButton.Size = new System.Drawing.Size(172, 37);
+            this.addEmployeeButton.Size = new System.Drawing.Size(150, 35);
             this.addEmployeeButton.TabIndex = 2;
             this.addEmployeeButton.Text = "Add Employee";
             this.addEmployeeButton.UseVisualStyleBackColor = true;
             // 
             // employeesForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(689, 411);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(603, 385);
             this.Controls.Add(this.addEmployeeButton);
             this.Controls.Add(this.editButton);
             this.Controls.Add(this.dataGridView1);

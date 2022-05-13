@@ -55,13 +55,13 @@ namespace Resurtant_project
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.LightGray;
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(473, 280);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Main course";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -123,6 +123,7 @@ namespace Resurtant_project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.NextButton);

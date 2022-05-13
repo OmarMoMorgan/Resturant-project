@@ -39,6 +39,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightGray;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.orderIDColumn,
@@ -46,11 +47,11 @@
             this.customerColumn,
             this.phoneColumn,
             this.priceColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(70, 69);
+            this.dataGridView1.Location = new System.Drawing.Point(61, 65);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(679, 320);
+            this.dataGridView1.Size = new System.Drawing.Size(675, 300);
             this.dataGridView1.TabIndex = 0;
             // 
             // orderIDColumn
@@ -95,9 +96,10 @@
             // 
             // historyForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(797, 425);
             this.Controls.Add(this.dataGridView1);
             this.Name = "historyForm";
             this.Text = "historyForm";
