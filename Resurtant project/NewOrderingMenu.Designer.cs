@@ -1,7 +1,7 @@
 ﻿
 namespace Resurtant_project
 {
-    partial class OrderingMenu
+    partial class NewOrderingMenu
     {
         /// <summary>
         /// Required designer variable.
