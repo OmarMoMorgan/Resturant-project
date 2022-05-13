@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Resurtant_project
 {
-    public partial class OrderingMenu : Form
+    public partial class OrderRecipt : Form
     {
-        public OrderingMenu()
+        public OrderRecipt()
         {
             InitializeComponent();
         }
