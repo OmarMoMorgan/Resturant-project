@@ -16,5 +16,27 @@ namespace Resurtant_project
         {
             InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Form1 F = new Form1();
+            F.Show();
+            this.Close();
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            if (OrderDelivery.Checked)
+            {
+                CoustmerInfo F = new CoustmerInfo();
+                F.Show();
+                this.Close();
+            }else if (BookTable.Checked)
+            {
+                BranchesAvailable F = new BranchesAvailable();
+                F.Show();
+                this.Close();
+            }
+        }
     }
 }

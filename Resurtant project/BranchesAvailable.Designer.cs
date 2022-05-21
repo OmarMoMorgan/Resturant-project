@@ -31,39 +31,40 @@ namespace Resurtant_project
         {
             this.BackButton = new System.Windows.Forms.Button();
             this.NextButton = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(101, 213);
+            this.BackButton.Location = new System.Drawing.Point(59, 324);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(75, 23);
             this.BackButton.TabIndex = 8;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // NextButton
             // 
             this.NextButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.NextButton.Location = new System.Drawing.Point(373, 205);
+            this.NextButton.Location = new System.Drawing.Point(458, 314);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(79, 35);
+            this.NextButton.Size = new System.Drawing.Size(94, 38);
             this.NextButton.TabIndex = 7;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
-            // radioButton1
+            // dataGridView1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioButton1.Location = new System.Drawing.Point(240, 76);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(116, 24);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "BranchName";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(140, 12);
+            this.dataGridView1.MultiSelect = false;
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(329, 235);
+            this.dataGridView1.TabIndex = 9;
             // 
             // BranchesAvailable
             // 
@@ -71,13 +72,13 @@ namespace Resurtant_project
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(622, 394);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.NextButton);
             this.Name = "BranchesAvailable";
             this.Text = "BranchesAvailable";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -85,6 +86,6 @@ namespace Resurtant_project
 
         private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Button NextButton;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

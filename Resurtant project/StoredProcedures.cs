@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Resurtant_project
+{
+    class StoredProcedures
+    {
+        public static string getAllBranches = "GetAllBranches";
+        public static string InsertCoustmerInfo = "InsertCoustmerInfo";
+        public static string GetMenu = "GetMenu";
+        public static string GetLastOrderID = "GetLastOrderID";
+    }
+}
