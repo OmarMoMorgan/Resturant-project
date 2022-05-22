@@ -12,5 +12,6 @@ namespace Resurtant_project
         public static string InsertCoustmerInfo = "InsertCoustmerInfo";
         public static string GetMenu = "GetMenu";
         public static string GetLastOrderID = "GetLastOrderID";
+        public static string InsertTupleOrderR = "InsertTupleOrderR";
     }
 }
