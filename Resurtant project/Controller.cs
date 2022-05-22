@@ -55,5 +55,15 @@ namespace Resurtant_project
            return Int32.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
         }
 
+
+        public void InsertTupleOrderR(int orderii , int pphone , string fname)
+        {
+            String StoredProcedureName = StoredProcedures.GetMenu;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@orderii", orderii);
+            Parameters.Add("@pphone", pphone);
+            Parameters.Add("@FoodNAme", fname);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
     }
 }

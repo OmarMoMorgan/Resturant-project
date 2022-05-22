@@ -33,9 +33,11 @@ namespace Resurtant_project
             this.NextButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.PriceLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Coustmer_name_label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,6 +49,7 @@ namespace Resurtant_project
             this.BackButton.TabIndex = 10;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // NextButton
             // 
@@ -57,6 +60,7 @@ namespace Resurtant_project
             this.NextButton.TabIndex = 9;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // dataGridView1
             // 
@@ -77,15 +81,15 @@ namespace Resurtant_project
             this.label1.TabIndex = 12;
             this.label1.Text = "Total Price";
             // 
-            // label2
+            // PriceLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(278, 248);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 15);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Price";
+            this.PriceLabel.AutoSize = true;
+            this.PriceLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.PriceLabel.Location = new System.Drawing.Point(278, 248);
+            this.PriceLabel.Name = "PriceLabel";
+            this.PriceLabel.Size = new System.Drawing.Size(33, 15);
+            this.PriceLabel.TabIndex = 13;
+            this.PriceLabel.Text = "Price";
             // 
             // label3
             // 
@@ -107,15 +111,37 @@ namespace Resurtant_project
             this.label4.TabIndex = 15;
             this.label4.Text = "Coustmer Name";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(379, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(38, 15);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "label5";
+            // 
+            // Coustmer_name_label
+            // 
+            this.Coustmer_name_label.AutoSize = true;
+            this.Coustmer_name_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Coustmer_name_label.Location = new System.Drawing.Point(516, 37);
+            this.Coustmer_name_label.Name = "Coustmer_name_label";
+            this.Coustmer_name_label.Size = new System.Drawing.Size(41, 15);
+            this.Coustmer_name_label.TabIndex = 17;
+            this.Coustmer_name_label.Text = "NAme";
+            // 
             // OrderRecipt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Coustmer_name_label);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.PriceLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BackButton);
@@ -134,8 +160,10 @@ namespace Resurtant_project
         private System.Windows.Forms.Button NextButton;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label PriceLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Coustmer_name_label;
     }
 }

@@ -1,5 +1,6 @@
 set ANSI_NULLS ON
 set QUOTED_IDENTIFIER ON
+use ResturantDBProject
 GO
 -- =============================================
 -- Author:		<Author,,Name>
