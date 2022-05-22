@@ -65,5 +65,17 @@ namespace Resurtant_project
             Parameters.Add("@FoodNAme", fname);
             dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
         }
+
+        public void InsertEmployee(string ename, string ejob, string edate, int esalary, int eid)
+        {
+            String StoredProcedureName = StoredProcedures.InsertEmployee;
+            Dictionary<string , object> Parameters = new Dictionary<string , object>();
+            Parameters.Add("@ename", ename);
+            Parameters.Add("@ejob", ejob);
+            Parameters.Add("@edate", edate);
+            Parameters.Add("@esalary", esalary);
+            Parameters.Add("@eid", eid);
+            dbMan.ExecuteNonQuery (StoredProcedureName, Parameters);
+        }
     }
 }

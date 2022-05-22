@@ -12,16 +12,18 @@ namespace Resurtant_project
 {
     public partial class addEmplyeeForm : Form
     {
-        public addEmplyeeForm()
-        {
-            InitializeComponent();
-        }
-
+        Controller Cnt;
         string empName;
         string empJob;
         string empJoiningDate;
         int empSalary;
         int empId;
+
+        public addEmplyeeForm()
+        {
+            InitializeComponent();
+            Cnt = new Controller();
+        }
 
         private void addButton_Click(object sender, EventArgs e)
         {
@@ -30,6 +32,8 @@ namespace Resurtant_project
             empJoiningDate = joiningDateTextBox.Text;
             empSalary= int.Parse(salaryTextBox.Text);
             IDTextBox.Text = empId.ToString();
+            Cnt.InsertEmployee(empName, empJob, empJoiningDate, empSalary, empId);
+
             
             
         }
