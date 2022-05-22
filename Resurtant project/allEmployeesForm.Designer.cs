@@ -1,6 +1,6 @@
-﻿namespace Resturant
+﻿namespace Resurtant_project
 {
-    partial class employeesForm
+    partial class allEmployeesForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.addEmployeeButton = new System.Windows.Forms.Button();
+            this.editButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.employeeColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.jobColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.salaryColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.editButton = new System.Windows.Forms.Button();
-            this.addEmployeeButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // addEmployeeButton
+            // 
+            this.addEmployeeButton.Location = new System.Drawing.Point(429, 391);
+            this.addEmployeeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.addEmployeeButton.Name = "addEmployeeButton";
+            this.addEmployeeButton.Size = new System.Drawing.Size(171, 47);
+            this.addEmployeeButton.TabIndex = 5;
+            this.addEmployeeButton.Text = "Add Employee";
+            this.addEmployeeButton.UseVisualStyleBackColor = true;
+            this.addEmployeeButton.Click += new System.EventHandler(this.addEmployeeButton_Click);
+            // 
+            // editButton
+            // 
+            this.editButton.Location = new System.Drawing.Point(269, 391);
+            this.editButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(99, 47);
+            this.editButton.TabIndex = 4;
+            this.editButton.Text = "Edit";
+            this.editButton.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -47,12 +68,13 @@
             this.dateColumn,
             this.jobColumn,
             this.salaryColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(67, 47);
+            this.dataGridView1.Location = new System.Drawing.Point(46, 23);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(485, 261);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.Size = new System.Drawing.Size(554, 348);
+            this.dataGridView1.TabIndex = 3;
             // 
             // employeeColumn
             // 
@@ -86,35 +108,17 @@
             this.salaryColumn.ReadOnly = true;
             this.salaryColumn.Width = 125;
             // 
-            // editButton
+            // allEmployeesForm
             // 
-            this.editButton.Location = new System.Drawing.Point(262, 339);
-            this.editButton.Name = "editButton";
-            this.editButton.Size = new System.Drawing.Size(87, 35);
-            this.editButton.TabIndex = 1;
-            this.editButton.Text = "Edit";
-            this.editButton.UseVisualStyleBackColor = true;
-            // 
-            // addEmployeeButton
-            // 
-            this.addEmployeeButton.Location = new System.Drawing.Point(402, 339);
-            this.addEmployeeButton.Name = "addEmployeeButton";
-            this.addEmployeeButton.Size = new System.Drawing.Size(150, 35);
-            this.addEmployeeButton.TabIndex = 2;
-            this.addEmployeeButton.Text = "Add Employee";
-            this.addEmployeeButton.UseVisualStyleBackColor = true;
-            // 
-            // employeesForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(603, 385);
+            this.ClientSize = new System.Drawing.Size(656, 451);
             this.Controls.Add(this.addEmployeeButton);
             this.Controls.Add(this.editButton);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "employeesForm";
-            this.Text = "employeesForm";
+            this.Name = "allEmployeesForm";
+            this.Text = "allEmployeesForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -122,12 +126,12 @@
 
         #endregion
 
+        private System.Windows.Forms.Button addEmployeeButton;
+        private System.Windows.Forms.Button editButton;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn employeeColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn jobColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn salaryColumn;
-        private System.Windows.Forms.Button editButton;
-        private System.Windows.Forms.Button addEmployeeButton;
     }
 }
