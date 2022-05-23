@@ -31,13 +31,39 @@ namespace Resurtant_project
             {*/
                 //MessageBox.Show(dbMan.ExecuteReader(query).Rows[0][2].ToString());
                 return Int16.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
-/*            }
+/*           }
             else
             {
                 return 0;
             }*/
         }
 
+        public void removeForm(string name)
+        {
+            String StoredProcedureName = StoredProcedures.removeBranch;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@BranchName", name);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+
+
+        public void addBranch(string bname, int id, string location, int btax, int bsup_ssn)
+        {
+            String StoredProcedureName = StoredProcedures.addbranch;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@BranchName", bname);
+            Parameters.Add("@ID", id);
+            Parameters.Add("@Blocation", location);
+            Parameters.Add("@BranchTax", btax);
+            Parameters.Add("@BranchSupSSN", bsup_ssn);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+        public DataTable ShowInfo()
+        {
+            String storedProcedure = StoredProcedures.GetBranchInfo;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            return dbMan.ExecuteReader(storedProcedure, Parameters);
+        }
         public DataTable GetBranchNames()
         {
             String StoredProcedureName = StoredProcedures.getAllBranches;
@@ -66,28 +92,16 @@ namespace Resurtant_project
 
         public int GetLastOrderID()
         {
-            String StoredProcedureName = StoredProcedures.GetLastOrderID;
+            String StoredProcedureName = StoredProcedures.GetMenu;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             //Parameters.Add("@MenuName", MName);
-            if(dbMan.ExecuteScalar(StoredProcedureName, Parameters) != null)
-            {
-                try
-                {
-                    return Int32.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
-                }catch{
-                    return 0;
-                }
-            }
-            else
-            {
-                return 0;
-            }
+           return Int32.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
         }
 
 
         public void InsertTupleOrderR(int orderii , int pphone , string fname)
         {
-            String StoredProcedureName = StoredProcedures.InsertTupleOrderR;
+            String StoredProcedureName = StoredProcedures.GetMenu;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             Parameters.Add("@orderii", orderii);
             Parameters.Add("@pphone", pphone);

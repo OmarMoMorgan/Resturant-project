@@ -12,9 +12,16 @@ namespace Resurtant_project
 {
     public partial class removeBranchForm : Form
     {
+        Controller controllerObj;
         public removeBranchForm()
         {
             InitializeComponent();
+            controllerObj = new Controller();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            controllerObj.removeForm(textBox1.Text);
         }
     }
 }

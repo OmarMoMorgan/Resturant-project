@@ -24,6 +24,7 @@ namespace Resurtant_project
         {
             name = textBox1.Text;
             int r=controllerObj.check_pass(textBox1.Text, textBox2.Text);
+            MessageBox.Show(r.ToString());
             if (r == 1)
             {
                 Form f = new Manager();

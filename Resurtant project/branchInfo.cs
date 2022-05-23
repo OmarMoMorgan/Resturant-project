@@ -12,9 +12,18 @@ namespace Resurtant_project
 {
     public partial class branchInfo : Form
     {
+        Controller controllerObj;
         public branchInfo()
         {
             InitializeComponent();
+            controllerObj = new Controller();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataTable dt = controllerObj.ShowInfo();
+            dataGridView1.DataSource = dt;
+
         }
     }
 }
