@@ -46,6 +46,18 @@ namespace Resurtant_project
             dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
         }
 
+
+        public void addBranch(string bname, int id, string location, int btax, int bsup_ssn)
+        {
+            String StoredProcedureName = StoredProcedures.addbranch;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@BranchName", bname);
+            Parameters.Add("@ID", id);
+            Parameters.Add("@Blocation", location);
+            Parameters.Add("@BranchTax", btax);
+            Parameters.Add("@BranchSupSSN", bsup_ssn);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
         public DataTable ShowInfo()
         {
             String storedProcedure = StoredProcedures.GetBranchInfo;

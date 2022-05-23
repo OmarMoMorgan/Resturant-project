@@ -12,9 +12,15 @@ namespace Resurtant_project
 {
     public partial class profitsForm : Form
     {
+        Controller Cnt;
+
+        string fromDate;
+        string toDate;
+
         public profitsForm()
         {
             InitializeComponent();
+            Cnt= new Controller();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -33,12 +39,19 @@ namespace Resurtant_project
 
         private void showButton_Click(object sender, EventArgs e)
         {
+            /*
             expensesLabel.Text += 10;
             salariesLabel.Text += 100;
             materialsLabel.Text += 1000;
             incomeLabel.Text += 10000;
             itemsLabel.Text += 100000;
             delieveryLabel.Text += 1000000;
+            */
+
+            fromDate = fromDatePicker.Text;
+            toDate = toDatePicker.Text;
+
+            dataGridView1.DataSource= Cnt.GetProfits(fromDate, toDate);
         }
     }
 }

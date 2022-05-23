@@ -15,6 +15,7 @@ namespace Resurtant_project
         public static string CurrentCoustmerAdress;
         public static int BiggestID;
         public static DataTable dd = new DataTable();
-
+        
+        //PubVariables.dd.
     }
 }

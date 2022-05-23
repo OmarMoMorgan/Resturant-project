@@ -16,6 +16,9 @@ namespace Resurtant_project
         public static string checkpass = "GetPriv";
         public static string GetBranchInfo = "GetBranchInfo";
         public static string InsertEmployee = "InsertEmployee";
+        public static string GetProfits = "GetProfits";
+        public static string GetHistory = "GetHistory";
+
         public static string removeBranch = "removeBranch";
     }
 }
