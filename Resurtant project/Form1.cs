@@ -21,5 +21,19 @@ namespace Resurtant_project
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                Form f = new employeeLogin();
+                f.Show();
+            }
+            else
+            {
+                Form f = new EatingPlaceChoice();
+                f.Show();
+            }
+        }
     }
 }

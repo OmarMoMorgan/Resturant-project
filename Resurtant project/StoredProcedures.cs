@@ -13,7 +13,7 @@ namespace Resurtant_project
         public static string GetMenu = "GetMenu";
         public static string GetLastOrderID = "GetLastOrderID";
         public static string InsertTupleOrderR = "InsertTupleOrderR";
-
+        public static string checkpass = "GetPriv";
 
         public static string InsertEmployee = "InsertEmployee";
     }

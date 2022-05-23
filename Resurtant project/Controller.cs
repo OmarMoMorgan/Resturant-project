@@ -21,6 +21,23 @@ namespace Resurtant_project
             dbMan.CloseConnection();
         }
 
+        public int check_pass(string name, string pass)
+        {
+            String StoredProcedureName = StoredProcedures.checkpass;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Username", name);
+            Parameters.Add("@Pass", pass);
+/*            if (dbMan.ExecuteReader(StoredProcedureName, Parameters) != null)
+            {*/
+                //MessageBox.Show(dbMan.ExecuteReader(query).Rows[0][2].ToString());
+                return Int16.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
+/*            }
+            else
+            {
+                return 0;
+            }*/
+        }
+
         public DataTable GetBranchNames()
         {
             String StoredProcedureName = StoredProcedures.getAllBranches;
