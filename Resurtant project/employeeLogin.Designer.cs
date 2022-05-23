@@ -42,9 +42,9 @@ namespace Resurtant_project
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(125, 124);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 21);
+            this.label1.Size = new System.Drawing.Size(83, 21);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "username ";
             // 
             // label2
             // 
@@ -52,9 +52,9 @@ namespace Resurtant_project
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(125, 194);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 21);
+            this.label2.Size = new System.Drawing.Size(76, 21);
             this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.label2.Text = "password";
             // 
             // textBox1
             // 
@@ -78,13 +78,14 @@ namespace Resurtant_project
             this.button1.TabIndex = 4;
             this.button1.Text = "login";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // employeeLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(571, 409);
+            this.ClientSize = new System.Drawing.Size(504, 431);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);

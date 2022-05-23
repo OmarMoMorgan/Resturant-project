@@ -30,11 +30,6 @@ namespace Resurtant_project
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.supervisor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.supSalary = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.capacity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numOfEmployees = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalProfits = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -46,12 +41,6 @@ namespace Resurtant_project
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.LightGray;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.supervisor,
-            this.supSalary,
-            this.capacity,
-            this.numOfEmployees,
-            this.totalProfits});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.InfoText;
             this.dataGridView1.Location = new System.Drawing.Point(70, 76);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -76,6 +65,7 @@ namespace Resurtant_project
             this.supSalary.Name = "supSalary";
             this.supSalary.ReadOnly = true;
             this.supSalary.Width = 125;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // capacity
             // 
@@ -167,11 +157,6 @@ namespace Resurtant_project
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn supervisor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn supSalary;
-        private System.Windows.Forms.DataGridViewTextBoxColumn capacity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn numOfEmployees;
-        private System.Windows.Forms.DataGridViewTextBoxColumn totalProfits;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

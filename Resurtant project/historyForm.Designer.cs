@@ -34,8 +34,8 @@
             this.customerColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.priceColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.fromDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.toDatePicker = new System.Windows.Forms.DateTimePicker();
             this.fromDateLabel = new System.Windows.Forms.Label();
             this.toDateLabel = new System.Windows.Forms.Label();
             this.showButton = new System.Windows.Forms.Button();
@@ -100,20 +100,20 @@
             this.priceColumn.ReadOnly = true;
             this.priceColumn.Width = 125;
             // 
-            // dateTimePicker1
+            // fromDatePicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(154, 29);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(245, 27);
-            this.dateTimePicker1.TabIndex = 1;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.fromDatePicker.Location = new System.Drawing.Point(154, 29);
+            this.fromDatePicker.Name = "fromDatePicker";
+            this.fromDatePicker.Size = new System.Drawing.Size(245, 27);
+            this.fromDatePicker.TabIndex = 1;
+            this.fromDatePicker.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // dateTimePicker2
+            // toDatePicker
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(583, 29);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(250, 27);
-            this.dateTimePicker2.TabIndex = 2;
+            this.toDatePicker.Location = new System.Drawing.Point(583, 29);
+            this.toDatePicker.Name = "toDatePicker";
+            this.toDatePicker.Size = new System.Drawing.Size(250, 27);
+            this.toDatePicker.TabIndex = 2;
             // 
             // fromDateLabel
             // 
@@ -152,8 +152,8 @@
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.toDateLabel);
             this.Controls.Add(this.fromDateLabel);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.toDatePicker);
+            this.Controls.Add(this.fromDatePicker);
             this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "historyForm";
@@ -171,8 +171,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn customerColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn phoneColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn priceColumn;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker fromDatePicker;
+        private System.Windows.Forms.DateTimePicker toDatePicker;
         private System.Windows.Forms.Label fromDateLabel;
         private System.Windows.Forms.Label toDateLabel;
         private System.Windows.Forms.Button showButton;

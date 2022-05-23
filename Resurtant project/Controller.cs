@@ -21,6 +21,49 @@ namespace Resurtant_project
             dbMan.CloseConnection();
         }
 
+        public int check_pass(string name, string pass)
+        {
+            String StoredProcedureName = StoredProcedures.checkpass;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Username", name);
+            Parameters.Add("@Pass", pass);
+/*            if (dbMan.ExecuteReader(StoredProcedureName, Parameters) != null)
+            {*/
+                //MessageBox.Show(dbMan.ExecuteReader(query).Rows[0][2].ToString());
+                return Int16.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
+/*           }
+            else
+            {
+                return 0;
+            }*/
+        }
+
+        public void removeForm(string name)
+        {
+            String StoredProcedureName = StoredProcedures.removeBranch;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@BranchName", name);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+
+
+        public void addBranch(string bname, int id, string location, int btax, int bsup_ssn)
+        {
+            String StoredProcedureName = StoredProcedures.addbranch;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@BranchName", bname);
+            Parameters.Add("@ID", id);
+            Parameters.Add("@Blocation", location);
+            Parameters.Add("@BranchTax", btax);
+            Parameters.Add("@BranchSupSSN", bsup_ssn);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+        public DataTable ShowInfo()
+        {
+            String storedProcedure = StoredProcedures.GetBranchInfo;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            return dbMan.ExecuteReader(storedProcedure, Parameters);
+        }
         public DataTable GetBranchNames()
         {
             String StoredProcedureName = StoredProcedures.getAllBranches;
@@ -127,6 +170,36 @@ namespace Resurtant_project
 
 
 
+
+
+        public DataTable GetProfits(string fromDate, string toDate)
+        {
+            String StoredProcedureName = StoredProcedures.GetProfits;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@fromDate", fromDate);
+            Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+
+        }
+
+        public DataTable GetHistory(string fromDate, string toDate)
+        {
+            String StoredProcedureName = StoredProcedures.GetHistory;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@fromDate", fromDate);
+            Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+
+        }
+
+        public string GetSupervisedBranch(string sname)
+        {
+            String StoredProcedureName = StoredProcedures.GetSupervisedBranch;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Sname", sname);
+            return (string) dbMan.ExecuteScalar(StoredProcedureName, Parameters);
+
+        }
 
     }
 }

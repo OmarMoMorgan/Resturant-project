@@ -8,16 +8,15 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE InsertEmployee 
+CREATE PROCEDURE GetSupervisedBranch 
 	-- Add the parameters for the stored procedure here
-	@ename varchar(50),
-	@ejob  varchar(20),
-	@edate date,
-	@esalary int,
-	@eid int
+	@Sname varchar(50)
 AS
 BEGIN
-Insert into Employee(EmpName, EmpID, Salary, Role) 
-Values				(@ename, @eid, @esalary, ejob)
+
+Select S.Name
+From BranchSupervisor AS S, Branch AS B
+Where S.Name=@Sname AND B.BranchSupSSN = S.SSN
+
 END
 GO
