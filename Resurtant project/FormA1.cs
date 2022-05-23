@@ -12,9 +12,23 @@ namespace Resurtant_project
 {
     public partial class FormA1 : Form
     {
+        Controller Cnt;
+        string supervisorName;
+        string branchName;
         public FormA1()
         {
             InitializeComponent();
+            Cnt = new Controller();
+        }
+
+        public FormA1(string sName)
+        {
+            supervisorName = sName;
+            //Check which branch does he supervises
+            branchName = Cnt.GetSupervisedBranch(supervisorName);
+            branchNameLabel.Text = branchName;
+            capacityLabel.Text += "  30"; //Default, should be changed with some value from the DB.
+
         }
 
         private void historyButton_Click(object sender, EventArgs e)
