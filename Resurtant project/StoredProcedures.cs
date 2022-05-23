@@ -16,5 +16,14 @@ namespace Resurtant_project
 
 
         public static string InsertEmployee = "InsertEmployee";
+
+
+        
+        public static string DeleteFoodItemByName = "DeleteFoodItemByName";
+        public static string EditFoodItemByName = "EditFoodItemByName";
+        public static string InsertFoodItem = "InsertFoodItem";
+        public static string SelectAllMenusNames = "SelectAllMenusNames";
+        //public static string ViewMenuByName = "ViewMenuByName";
+       
     }
 }

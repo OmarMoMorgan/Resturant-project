@@ -110,6 +110,7 @@
             this.jobComboBox.Name = "jobComboBox";
             this.jobComboBox.Size = new System.Drawing.Size(121, 28);
             this.jobComboBox.TabIndex = 8;
+            this.jobComboBox.SelectedIndexChanged += new System.EventHandler(this.jobComboBox_SelectedIndexChanged);
             // 
             // addButton
             // 

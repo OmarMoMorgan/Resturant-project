@@ -10,9 +10,14 @@ namespace Resurtant_project
 {
     public partial class RemoveItemForm : Form
     {
+        Controller control;
+        
+
         public RemoveItemForm()
         {
             InitializeComponent();
+            control = new Controller();
+            
         }
 
         private void RemoveItemForm_Load(object sender, EventArgs e)
@@ -29,7 +34,17 @@ namespace Resurtant_project
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("item removed from menu");
+            if (comboBox1.Text == "" || comboBox2.Text == "") { MessageBox.Show("you must choose MenuName and ItemName"); }
+            else 
+            {
+                control.DeleteFoodItemByName(comboBox1.Text, comboBox2.Text);
+                MessageBox.Show("item removed from menu"); 
+            }
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

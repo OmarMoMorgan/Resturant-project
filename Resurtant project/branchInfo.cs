@@ -16,5 +16,10 @@ namespace Resurtant_project
         {
             InitializeComponent();
         }
+
+        private void branchInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
