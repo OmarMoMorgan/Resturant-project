@@ -31,13 +31,27 @@ namespace Resurtant_project
             {*/
                 //MessageBox.Show(dbMan.ExecuteReader(query).Rows[0][2].ToString());
                 return Int16.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
-/*            }
+/*           }
             else
             {
                 return 0;
             }*/
         }
 
+        public void removeForm(string name)
+        {
+            String StoredProcedureName = StoredProcedures.removeBranch;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@BranchName", name);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+
+        public DataTable ShowInfo()
+        {
+            String storedProcedure = StoredProcedures.GetBranchInfo;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            return dbMan.ExecuteReader(storedProcedure, Parameters);
+        }
         public DataTable GetBranchNames()
         {
             String StoredProcedureName = StoredProcedures.getAllBranches;
