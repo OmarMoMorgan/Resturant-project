@@ -15,6 +15,10 @@ namespace Resurtant_project
         public static string InsertTupleOrderR = "InsertTupleOrderR";
         public static string checkpass = "GetPriv";
 
+
         public static string InsertEmployee = "InsertEmployee";
+        public static string GetProfits = "GetProfits";
+        public static string GetHistory = "GetHistory";
+
     }
 }

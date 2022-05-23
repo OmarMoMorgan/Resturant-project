@@ -31,7 +31,7 @@ namespace Resurtant_project
             empJob= jobComboBox.Text;
             empJoiningDate = joiningDateTextBox.Text;
             empSalary= int.Parse(salaryTextBox.Text);
-            IDTextBox.Text = empId.ToString();
+            empId = 1;
             Cnt.InsertEmployee(empName, empJob, empJoiningDate, empSalary, empId);
 
             

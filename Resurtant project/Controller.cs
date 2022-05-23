@@ -106,5 +106,26 @@ namespace Resurtant_project
             Parameters.Add("@eid", eid);
             dbMan.ExecuteNonQuery (StoredProcedureName, Parameters);
         }
+
+        public DataTable GetProfits(string fromDate, string toDate)
+        {
+            String StoredProcedureName = StoredProcedures.GetProfits;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@fromDate", fromDate);
+            Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+
+        }
+
+        public DataTable GetHistory(string fromDate, string toDate)
+        {
+            String StoredProcedureName = StoredProcedures.GetHistory;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@fromDate", fromDate);
+            Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+
+        }
+
     }
 }
