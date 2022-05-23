@@ -8,13 +8,37 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Resturant
+namespace Resurtant_project
 {
     public partial class profitsForm : Form
     {
         public profitsForm()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void profitsForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fromDatePicker_ValueChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void showButton_Click(object sender, EventArgs e)
+        {
+            expensesLabel.Text += 10;
+            salariesLabel.Text += 100;
+            materialsLabel.Text += 1000;
+            incomeLabel.Text += 10000;
+            itemsLabel.Text += 100000;
+            delieveryLabel.Text += 1000000;
         }
     }
 }

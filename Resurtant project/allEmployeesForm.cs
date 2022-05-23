@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Resturant
+namespace Resurtant_project
 {
-    public partial class employeesForm : Form
+    public partial class allEmployeesForm : Form
     {
-        public employeesForm()
+        public allEmployeesForm()
         {
             InitializeComponent();
+        }
+
+        private void addEmployeeButton_Click(object sender, EventArgs e)
+        {
+            addEmplyeeForm af = new addEmplyeeForm();
+            af.Show();
         }
     }
 }

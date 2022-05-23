@@ -38,5 +38,10 @@ namespace Resurtant_project
                 this.Close();
             }
         }
+
+        private void EatingPlaceChoice_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
