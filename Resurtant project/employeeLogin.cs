@@ -12,6 +12,7 @@ namespace Resurtant_project
 {
     public partial class employeeLogin : Form
     {
+        string name;
         Controller controllerObj;
         public employeeLogin()
         {
@@ -21,6 +22,7 @@ namespace Resurtant_project
 
         private void button1_Click(object sender, EventArgs e)
         {
+            name = textBox1.Text;
             int r=controllerObj.check_pass(textBox1.Text, textBox2.Text);
             MessageBox.Show(r.ToString());
             if (r == 1)
@@ -30,7 +32,7 @@ namespace Resurtant_project
             }
             if (r == 2)
             {
-                Form f = new FormA1();
+                Form f = new FormA1(name);
                 f.Show(); 
             }
         }
