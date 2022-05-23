@@ -49,16 +49,28 @@ namespace Resurtant_project
 
         public int GetLastOrderID()
         {
-            String StoredProcedureName = StoredProcedures.GetMenu;
+            String StoredProcedureName = StoredProcedures.GetLastOrderID;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             //Parameters.Add("@MenuName", MName);
-           return Int32.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
+            if(dbMan.ExecuteScalar(StoredProcedureName, Parameters) != null)
+            {
+                try
+                {
+                    return Int32.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
+                }catch{
+                    return 0;
+                }
+            }
+            else
+            {
+                return 0;
+            }
         }
 
 
         public void InsertTupleOrderR(int orderii , int pphone , string fname)
         {
-            String StoredProcedureName = StoredProcedures.GetMenu;
+            String StoredProcedureName = StoredProcedures.InsertTupleOrderR;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             Parameters.Add("@orderii", orderii);
             Parameters.Add("@pphone", pphone);
