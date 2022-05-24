@@ -52,7 +52,7 @@ namespace Resurtant_project
             // 
             // supervisor
             // 
-            this.supervisor.HeaderText = "supervisor";
+/*            this.supervisor.HeaderText = "supervisor";
             this.supervisor.MinimumWidth = 6;
             this.supervisor.Name = "supervisor";
             this.supervisor.ReadOnly = true;
@@ -89,7 +89,7 @@ namespace Resurtant_project
             this.totalProfits.MinimumWidth = 6;
             this.totalProfits.Name = "totalProfits";
             this.totalProfits.ReadOnly = true;
-            this.totalProfits.Width = 125;
+            this.totalProfits.Width = 125;*/
             // 
             // button1
             // 
