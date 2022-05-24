@@ -1,6 +1,8 @@
 CREATE DATABASE ResturantDBProject
 GO
-use ResturantDBProject
+
+use ResturantDBProject;
+Go
 
 create table User_
 (

@@ -121,6 +121,57 @@ namespace Resurtant_project
             return dbMan.ExecuteNonQuery (StoredProcedureName, Parameters);
         }
 
+
+
+        ////////////
+        public void InsertFoodItem(int ID, string name, float Price, string MenuName )
+        {
+            String StoredProcedureName = StoredProcedures.InsertFoodItem;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Item_ID", ID);
+            Parameters.Add("@Item_Name", name);
+            Parameters.Add("@Item_Price", Price);
+            Parameters.Add("@Menu_Name", MenuName);
+          
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+
+        public void DeleteFoodItemByName( string name , string MenuName)
+        {
+            String StoredProcedureName = StoredProcedures.DeleteFoodItemByName;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Item_Name", name);
+            Parameters.Add("@Menu_Name", MenuName);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+
+
+        public void EditFoodItemByName(string MenuName , string name , string newname ,float newprice )
+        {
+            String StoredProcedureName = StoredProcedures.EditFoodItemByName;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Menu_Name", MenuName);
+            Parameters.Add("@CurrentItem_Nama", name);
+            Parameters.Add("@NewItem_Name", newname);
+            Parameters.Add("@NewItem_Price", newprice);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+
+        public void SelectAllMenusNames()
+        {
+            String StoredProcedureName = StoredProcedures.SelectAllMenusNames;
+           
+            
+            dbMan.ExecuteReader(StoredProcedureName, null);
+        }
+
+        
+
+
+
+
+
+
         public DataTable GetProfits(string fromDate, string toDate)
         {
             String StoredProcedureName = StoredProcedures.GetProfits;

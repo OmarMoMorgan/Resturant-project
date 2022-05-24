@@ -9,10 +9,12 @@ using System.Windows.Forms;
 namespace Resurtant_project
 {
     public partial class EditItemForm : Form
-    {
+    {    
+        Controller control;
         public EditItemForm()
         {
             InitializeComponent();
+            control = new Controller(); 
         }
 
         private void EditItemForm_Load(object sender, EventArgs e)
@@ -59,7 +61,13 @@ namespace Resurtant_project
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("item edited");
+            if (textBox1.Text == "" || textBox3.Text == "" || comboBox1.Text == "" || comboBox2.Text == "")
+            { MessageBox.Show("enter full data"); }
+            else 
+            {
+                control.EditFoodItemByName(comboBox1.Text, comboBox2.Text, textBox1.Text, float.Parse(textBox3.Text));
+                MessageBox.Show("item edited"); 
+            }
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)

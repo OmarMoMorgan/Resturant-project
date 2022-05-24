@@ -16,6 +16,15 @@ namespace Resurtant_project
         public static string checkpass = "GetPriv";
         public static string GetBranchInfo = "GetBranchInfo";
         public static string InsertEmployee = "InsertEmployee";
+
+
+        
+        public static string DeleteFoodItemByName = "DeleteFoodItemByName";
+        public static string EditFoodItemByName = "EditFoodItemByName";
+        public static string InsertFoodItem = "InsertFoodItem";
+        public static string SelectAllMenusNames = "SelectAllMenusNames";
+        //public static string ViewMenuByName = "ViewMenuByName";
+       
         public static string GetProfits = "GetProfits";
         public static string GetHistory = "GetHistory";
         public static string addbranch = "addbranch";

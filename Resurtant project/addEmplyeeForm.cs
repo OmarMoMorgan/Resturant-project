@@ -47,5 +47,10 @@ namespace Resurtant_project
 
 
         }
+
+        private void jobComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

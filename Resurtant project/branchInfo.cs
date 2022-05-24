@@ -25,5 +25,10 @@ namespace Resurtant_project
             dataGridView1.DataSource = dt;
 
         }
+
+        private void branchInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
