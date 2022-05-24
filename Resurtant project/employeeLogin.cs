@@ -23,7 +23,7 @@ namespace Resurtant_project
         private void button1_Click(object sender, EventArgs e)
         {
             name = textBox1.Text;
-            int r=controllerObj.check_pass(textBox1.Text, textBox2.Text);
+            int r=controllerObj.check_pass(textBox1.Text, int.Parse(textBox2.Text));
             MessageBox.Show(r.ToString());
             if (r == 1)
             {

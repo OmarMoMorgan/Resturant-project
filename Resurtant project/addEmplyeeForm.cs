@@ -23,6 +23,9 @@ namespace Resurtant_project
         {
             InitializeComponent();
             Cnt = new Controller();
+            empId = Cnt.GetLastEmployeeID() + 1;
+            IDTextBox.Text = empId.ToString();
+           
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -36,7 +39,7 @@ namespace Resurtant_project
                 empJob = jobComboBox.Text;
                 empJoiningDate = joiningDateTextBox.Text;
                 empSalary = int.Parse(salaryTextBox.Text);
-                empId = 2;
+                //empId = 4;
                 int check= Cnt.InsertEmployee(empName, empJob, empJoiningDate, empSalary, empId);
                 if (check == 0) MessageBox.Show("Insertion Failed!");
                 else MessageBox.Show("Inserted Successfuly.");

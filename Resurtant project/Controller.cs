@@ -21,12 +21,12 @@ namespace Resurtant_project
             dbMan.CloseConnection();
         }
 
-        public int check_pass(string name, string pass)
+        public int check_pass(string name, int pass)
         {
             String StoredProcedureName = StoredProcedures.checkpass;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             Parameters.Add("@Username", name);
-            Parameters.Add("@Pass", pass);
+            Parameters.Add("@Pass",  pass);
 /*            if (dbMan.ExecuteReader(StoredProcedureName, Parameters) != null)
             {*/
                 //MessageBox.Show(dbMan.ExecuteReader(query).Rows[0][2].ToString());
@@ -199,6 +199,14 @@ namespace Resurtant_project
             Parameters.Add("@Sname", sname);
             return (string) dbMan.ExecuteScalar(StoredProcedureName, Parameters);
 
+        }
+
+        public int GetLastEmployeeID()
+        {
+            String StoredProcedureName = StoredProcedures.GetLastEmployeeID;
+
+
+            return (int) dbMan.ExecuteScalar(StoredProcedureName, null);
         }
 
     }
