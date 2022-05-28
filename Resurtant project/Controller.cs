@@ -92,10 +92,17 @@ namespace Resurtant_project
 
         public int GetLastOrderID()
         {
-            String StoredProcedureName = StoredProcedures.GetMenu;
+            String StoredProcedureName = StoredProcedures.GetLastOrderID;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             //Parameters.Add("@MenuName", MName);
-           return Int32.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
+            if(dbMan.ExecuteScalar(StoredProcedureName, null) != null)
+            {
+                return Int32.Parse(dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString());
+            }
+            else
+            {
+                return 0;
+            }
         }
 
         public int GetLastEmployeeID()
@@ -105,13 +112,14 @@ namespace Resurtant_project
         }
 
 
-        public void InsertTupleOrderR(int orderii , int pphone , string fname)
+        public void InsertTupleOrderR(int orderii , int pphone , string fname , int QTY)
         {
-            String StoredProcedureName = StoredProcedures.GetMenu;
+            String StoredProcedureName = StoredProcedures.InsertTupleOrderR;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
-            Parameters.Add("@orderii", orderii);
-            Parameters.Add("@pphone", pphone);
+            Parameters.Add("@Orderii", orderii);
+            Parameters.Add("@Pphone", pphone);
             Parameters.Add("@FoodNAme", fname);
+            Parameters.Add("@QTY", QTY);
             dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
         }
 

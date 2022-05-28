@@ -16,9 +16,19 @@ ON DELETE CASCADE
 on update CASCADE
 )
 
+alter table Order_
+ADD OrderDate date
+
+alter table Order_
+drop column ordernum
+
+alter table TheOrderRelation
+add Quantity int
+
 --deleting old data that i had 
 delete from Menu
 delete from FoodItem
+delete from Branch
 
 insert into Menu(MenName,NumOfItems)
 	Values

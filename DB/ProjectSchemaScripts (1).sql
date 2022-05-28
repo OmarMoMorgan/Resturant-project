@@ -63,8 +63,9 @@ on update CASCADE
 create table Order_
 (
 OrderID int not null,
+OrderDate date
 primary key (OrderID),
-OrderNum int, --WHAT'S THE DIFFERENCE?
+--OrderNum int, --WHAT'S THE DIFFERENCE?
 
 )
 
