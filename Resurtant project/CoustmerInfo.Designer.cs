@@ -99,6 +99,7 @@ namespace Resurtant_project
             this.PhoneTextBox.Name = "PhoneTextBox";
             this.PhoneTextBox.Size = new System.Drawing.Size(243, 23);
             this.PhoneTextBox.TabIndex = 11;
+            this.PhoneTextBox.TextChanged += new System.EventHandler(this.PhoneTextBox_TextChanged);
             // 
             // AddressTextBox
             // 

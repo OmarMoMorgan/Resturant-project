@@ -28,11 +28,13 @@ namespace Resurtant_project
             {
                 Form f = new employeeLogin();
                 f.Show();
+                this.Hide();
             }
             else
             {
                 Form f = new EatingPlaceChoice();
                 f.Show();
+                this.Hide();
             }
         }
     }

@@ -21,27 +21,37 @@ namespace Resurtant_project
             Coustmer_name_label.Text = PubVariables.CurrentCoustmerName;
 
 
-            DataTable dt = PubVariables.dd;
-            dataGridView1.DataSource = dt;
-            dataGridView1.Refresh();
+            dataGridView1.Columns.Add("Name" , "NAme");
+            dataGridView1.Columns.Add("Price", "PRICE");
+            dataGridView1.Columns.Add("Qty", "QTY");
 
-            int sum = 0;
-            for(int i =0;i<dt.Rows.Count; i++)
-            {
-                sum += Int32.Parse(dt.Rows[i][1].ToString());
-            }
-            PriceLabel.Text = sum.ToString();
+
+            DataTable dt = PubVariables.dd;
+            //dataGridView1.DataSource = dt;
+            //dataGridView1.Refresh();
+
+            
+            //for(int i =0;i<dt.Rows.Count; i++)
+            //{
+            //    sum += Int32.Parse(dt.Rows[i][0].ToString());
+            //}
+            
+            
+            Coustmer_name_label.Text = PubVariables.CurrentCoustmerName;
         }
 
         private void NextButton_Click(object sender, EventArgs e)
         {
             DataTable dt = PubVariables.dd;
             int n = controllerObj.GetLastOrderID() + 1;
+            controllerObj.InsertCInfo(PubVariables.CurrentCoustmerPhone, PubVariables.CurrentCoustmerName, PubVariables.CurrentCoustmerAdress);
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
-                controllerObj.InsertTupleOrderR(n, Int32.Parse(PubVariables.CurrentCoustmerPhone), dt.Rows[i][0].ToString());
+                MessageBox.Show(dataGridView1.Rows[i].Cells[0].Value.ToString());
+                controllerObj.InsertTupleOrderR(n, PubVariables.CurrentCoustmerPhone, dataGridView1.Rows[i].Cells[0].Value.ToString() , Int16.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString()));
             }
             MessageBox.Show("order complete");
+            PubVariables.NOM.Close();
             Form1 f = new Form1();
             f.Show();
             this.Close();
@@ -49,9 +59,34 @@ namespace Resurtant_project
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            NewOrderingMenu F = new NewOrderingMenu();
-            F.Show();
+            //NewOrderingMenu F = new NewOrderingMenu();
+            //F.Show();
+            PubVariables.NOM.Show();
             this.Close();
+        }
+
+        public void AddGridViewRows(string n , string p , string q)
+        {
+            // Add rows to grid view.
+            dataGridView1.Rows.Add(n,p,q);
+
+            // Refresh the grid
+            dataGridView1.Update();
+        }
+
+        public void UpdateTotalPrice()
+        {
+            int sum = 0;
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                //MessageBox.Show(row.Cells[0].Value.ToString());
+                //MessageBox.Show(row.Cells[1].Value.ToString());
+                //MessageBox.Show(row.Cells[2].Value.ToString());
+                //if (Int32.Parse(row.Cells[0].Value.ToString()) > 0)
+
+                sum += Int32.Parse(row.Cells[1].Value.ToString()) * Int32.Parse(row.Cells[2].Value.ToString());
+            }
+            PriceLabel.Text = sum.ToString();
         }
     }
 }

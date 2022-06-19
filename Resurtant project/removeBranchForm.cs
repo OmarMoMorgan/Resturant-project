@@ -21,7 +21,21 @@ namespace Resurtant_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            controllerObj.removeForm(textBox1.Text);
+            int r=controllerObj.removeForm(int.Parse(textBox1.Text));
+            if (r!=0)
+            {
+                MessageBox.Show("done");
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Form f = new branchInfo();f.Show();
         }
     }
 }

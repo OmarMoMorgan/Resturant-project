@@ -14,6 +14,6 @@ as
 begin 
 select priv
 from User_
-where LoginName='mahmoud' and Password ='123'
+where LoginName=@username and Password =@pass
 end 
 go 

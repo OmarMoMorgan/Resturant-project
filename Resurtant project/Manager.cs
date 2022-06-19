@@ -41,6 +41,7 @@ namespace Resurtant_project
         {
             Form f = new branchInfo();
             f.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -51,7 +52,7 @@ namespace Resurtant_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form f = new employeeLogin();f.Show();
         }
     }
 }

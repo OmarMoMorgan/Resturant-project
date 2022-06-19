@@ -17,6 +17,8 @@ namespace Resurtant_project
         {
             InitializeComponent();
             controllerObj = new Controller();
+            DataTable dt = controllerObj.ShowInfo();
+            dataGridView1.DataSource = dt;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -24,6 +26,30 @@ namespace Resurtant_project
             DataTable dt = controllerObj.ShowInfo();
             dataGridView1.DataSource = dt;
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form f = new addBranchForm();
+            f.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form f = new removeBranchForm();
+            f.Show();
+            this.Close();
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Form f = new Manager();f.Show();
         }
     }
 }

@@ -83,11 +83,12 @@ namespace Resurtant_project
             // 
             // dataGridView4
             // 
+            this.dataGridView4.AllowUserToAddRows = false;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Location = new System.Drawing.Point(134, 105);
+            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowTemplate.Height = 25;
-            this.dataGridView4.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView4.Size = new System.Drawing.Size(470, 274);
             this.dataGridView4.TabIndex = 0;
             // 
             // tabPage3
@@ -98,16 +99,17 @@ namespace Resurtant_project
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(473, 280);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "appetizer";
+            this.tabPage3.Text = "appetizers";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
             // 
+            this.dataGridView3.AllowUserToAddRows = false;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(60, 51);
+            this.dataGridView3.Location = new System.Drawing.Point(6, 6);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowTemplate.Height = 25;
-            this.dataGridView3.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView3.Size = new System.Drawing.Size(447, 268);
             this.dataGridView3.TabIndex = 0;
             // 
             // tabPage2
@@ -123,11 +125,12 @@ namespace Resurtant_project
             // 
             // dataGridView2
             // 
+            this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(56, 76);
+            this.dataGridView2.Location = new System.Drawing.Point(16, 15);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView2.Size = new System.Drawing.Size(424, 245);
             this.dataGridView2.TabIndex = 0;
             // 
             // tabPage1
@@ -150,6 +153,7 @@ namespace Resurtant_project
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(316, 262);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // tabControl1
             // 

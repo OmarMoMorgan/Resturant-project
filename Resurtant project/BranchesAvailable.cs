@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Resurtant_project
 {
-    
+
     public partial class BranchesAvailable : Form
     {
 
@@ -21,17 +21,19 @@ namespace Resurtant_project
             InitializeComponent();
 
             controllerObj = new Controller();
-            
+
             DataTable dt = controllerObj.GetBranchNames();
-            dataGridView1.DataSource = dt;
-            dataGridView1.Refresh();
+            //dataGridView1.DataSource = dt;
+            //dataGridView1.Refresh();
+            comboBox1.DataSource = dt;
+            comboBox1.DisplayMember = "BranchName";
         }
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count > 0)
+            if (comboBox1.SelectedIndex > -1)
             {
-                PubVariables.SelectedBranchName = dataGridView1.SelectedRows[0].Cells["BranchName"].Value.ToString();
+                PubVariables.SelectedBranchName = comboBox1.SelectedItem.ToString();
                 CoustmerInfo C = new CoustmerInfo();
                 C.Show();
                 this.Close();
