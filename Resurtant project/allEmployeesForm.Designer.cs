@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.addEmployeeButton = new System.Windows.Forms.Button();
-            this.editButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.employeeColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,7 +39,7 @@
             // 
             // addEmployeeButton
             // 
-            this.addEmployeeButton.Location = new System.Drawing.Point(429, 391);
+            this.addEmployeeButton.Location = new System.Drawing.Point(233, 391);
             this.addEmployeeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addEmployeeButton.Name = "addEmployeeButton";
             this.addEmployeeButton.Size = new System.Drawing.Size(171, 47);
@@ -48,16 +47,6 @@
             this.addEmployeeButton.Text = "Add Employee";
             this.addEmployeeButton.UseVisualStyleBackColor = true;
             this.addEmployeeButton.Click += new System.EventHandler(this.addEmployeeButton_Click);
-            // 
-            // editButton
-            // 
-            this.editButton.Location = new System.Drawing.Point(269, 391);
-            this.editButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.editButton.Name = "editButton";
-            this.editButton.Size = new System.Drawing.Size(99, 47);
-            this.editButton.TabIndex = 4;
-            this.editButton.Text = "Edit";
-            this.editButton.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -115,7 +104,6 @@
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(656, 451);
             this.Controls.Add(this.addEmployeeButton);
-            this.Controls.Add(this.editButton);
             this.Controls.Add(this.dataGridView1);
             this.Name = "allEmployeesForm";
             this.Text = "allEmployeesForm";
@@ -127,7 +115,6 @@
         #endregion
 
         private System.Windows.Forms.Button addEmployeeButton;
-        private System.Windows.Forms.Button editButton;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn employeeColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateColumn;
