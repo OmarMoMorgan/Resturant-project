@@ -10,7 +10,7 @@ namespace Resurtant_project
 {
     public class DBManager
     {
-        static string DB_Connection_String = @"Data Source=LAPTOP-U91403RA\SQLEXPRESS;Initial Catalog=ResturantDBProject;Integrated Security=True";
+        static string DB_Connection_String = @"Data Source=DESKTOP-CHVT2VQ\SQLEXPRESS;Initial Catalog=ResturantDBProject;Integrated Security=True";
         //static string DB_Connection_String = @"Data Source=LAPTOP-U91403RA\SQLEXPRESS;Initial Catalog=ResturantDBProject;Integrated Security=True";
 
         SqlConnection myConnection;

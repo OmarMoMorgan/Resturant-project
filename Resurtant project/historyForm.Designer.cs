@@ -39,7 +39,9 @@
             this.fromDateLabel = new System.Windows.Forms.Label();
             this.toDateLabel = new System.Windows.Forms.Label();
             this.showButton = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -143,12 +145,23 @@
             this.showButton.UseVisualStyleBackColor = true;
             this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(45, 156);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 29;
+            this.dataGridView2.Size = new System.Drawing.Size(432, 225);
+            this.dataGridView2.TabIndex = 6;
+            // 
             // historyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(911, 567);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.toDateLabel);
             this.Controls.Add(this.fromDateLabel);
@@ -159,6 +172,7 @@
             this.Name = "historyForm";
             this.Text = "historyForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -176,5 +190,6 @@
         private System.Windows.Forms.Label fromDateLabel;
         private System.Windows.Forms.Label toDateLabel;
         private System.Windows.Forms.Button showButton;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

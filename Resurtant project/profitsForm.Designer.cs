@@ -40,15 +40,17 @@
             this.fromDateLabel = new System.Windows.Forms.Label();
             this.toDatePicker = new System.Windows.Forms.DateTimePicker();
             this.fromDatePicker = new System.Windows.Forms.DateTimePicker();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.expensesColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.salariesColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.materialsColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.incomeColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itemSoldColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.delieveryColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.totalColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.delieveryColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemSoldColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.incomeColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialsColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.salariesColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.expensesColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // expensesLabel
@@ -170,6 +172,62 @@
             this.fromDatePicker.TabIndex = 7;
             this.fromDatePicker.ValueChanged += new System.EventHandler(this.fromDatePicker_ValueChanged);
             // 
+            // totalColumn
+            // 
+            this.totalColumn.HeaderText = "Total";
+            this.totalColumn.MinimumWidth = 6;
+            this.totalColumn.Name = "totalColumn";
+            this.totalColumn.ReadOnly = true;
+            this.totalColumn.Width = 125;
+            // 
+            // delieveryColumn
+            // 
+            this.delieveryColumn.HeaderText = "Delievery";
+            this.delieveryColumn.MinimumWidth = 6;
+            this.delieveryColumn.Name = "delieveryColumn";
+            this.delieveryColumn.ReadOnly = true;
+            this.delieveryColumn.Width = 125;
+            // 
+            // itemSoldColumn
+            // 
+            this.itemSoldColumn.HeaderText = "Items Sold";
+            this.itemSoldColumn.MinimumWidth = 6;
+            this.itemSoldColumn.Name = "itemSoldColumn";
+            this.itemSoldColumn.ReadOnly = true;
+            this.itemSoldColumn.Width = 125;
+            // 
+            // incomeColumn
+            // 
+            this.incomeColumn.HeaderText = "Income";
+            this.incomeColumn.MinimumWidth = 6;
+            this.incomeColumn.Name = "incomeColumn";
+            this.incomeColumn.ReadOnly = true;
+            this.incomeColumn.Width = 125;
+            // 
+            // materialsColumn
+            // 
+            this.materialsColumn.HeaderText = "Materials";
+            this.materialsColumn.MinimumWidth = 6;
+            this.materialsColumn.Name = "materialsColumn";
+            this.materialsColumn.ReadOnly = true;
+            this.materialsColumn.Width = 125;
+            // 
+            // salariesColumn
+            // 
+            this.salariesColumn.HeaderText = "Salaries";
+            this.salariesColumn.MinimumWidth = 6;
+            this.salariesColumn.Name = "salariesColumn";
+            this.salariesColumn.ReadOnly = true;
+            this.salariesColumn.Width = 125;
+            // 
+            // expensesColumn
+            // 
+            this.expensesColumn.HeaderText = "Expenses";
+            this.expensesColumn.MinimumWidth = 6;
+            this.expensesColumn.Name = "expensesColumn";
+            this.expensesColumn.ReadOnly = true;
+            this.expensesColumn.Width = 125;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -181,68 +239,22 @@
             this.itemSoldColumn,
             this.delieveryColumn,
             this.totalColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(241, 162);
+            this.dataGridView1.Location = new System.Drawing.Point(138, 162);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(778, 127);
+            this.dataGridView1.Size = new System.Drawing.Size(931, 82);
             this.dataGridView1.TabIndex = 12;
             // 
-            // expensesColumn
+            // dataGridView2
             // 
-            this.expensesColumn.HeaderText = "Expenses";
-            this.expensesColumn.MinimumWidth = 6;
-            this.expensesColumn.Name = "expensesColumn";
-            this.expensesColumn.ReadOnly = true;
-            this.expensesColumn.Width = 125;
-            // 
-            // salariesColumn
-            // 
-            this.salariesColumn.HeaderText = "Salaries";
-            this.salariesColumn.MinimumWidth = 6;
-            this.salariesColumn.Name = "salariesColumn";
-            this.salariesColumn.ReadOnly = true;
-            this.salariesColumn.Width = 125;
-            // 
-            // materialsColumn
-            // 
-            this.materialsColumn.HeaderText = "Materials";
-            this.materialsColumn.MinimumWidth = 6;
-            this.materialsColumn.Name = "materialsColumn";
-            this.materialsColumn.ReadOnly = true;
-            this.materialsColumn.Width = 125;
-            // 
-            // incomeColumn
-            // 
-            this.incomeColumn.HeaderText = "Income";
-            this.incomeColumn.MinimumWidth = 6;
-            this.incomeColumn.Name = "incomeColumn";
-            this.incomeColumn.ReadOnly = true;
-            this.incomeColumn.Width = 125;
-            // 
-            // itemSoldColumn
-            // 
-            this.itemSoldColumn.HeaderText = "Items Sold";
-            this.itemSoldColumn.MinimumWidth = 6;
-            this.itemSoldColumn.Name = "itemSoldColumn";
-            this.itemSoldColumn.ReadOnly = true;
-            this.itemSoldColumn.Width = 125;
-            // 
-            // delieveryColumn
-            // 
-            this.delieveryColumn.HeaderText = "Delievery";
-            this.delieveryColumn.MinimumWidth = 6;
-            this.delieveryColumn.Name = "delieveryColumn";
-            this.delieveryColumn.ReadOnly = true;
-            this.delieveryColumn.Width = 125;
-            // 
-            // totalColumn
-            // 
-            this.totalColumn.HeaderText = "Total";
-            this.totalColumn.MinimumWidth = 6;
-            this.totalColumn.Name = "totalColumn";
-            this.totalColumn.ReadOnly = true;
-            this.totalColumn.Width = 125;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(419, 123);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 29;
+            this.dataGridView2.Size = new System.Drawing.Size(504, 271);
+            this.dataGridView2.TabIndex = 13;
             // 
             // profitsForm
             // 
@@ -250,6 +262,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(1071, 472);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.toDateLabel);
@@ -268,6 +281,7 @@
             this.Text = "Profits";
             this.Load += new System.EventHandler(this.profitsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -286,13 +300,14 @@
         private System.Windows.Forms.Label fromDateLabel;
         private System.Windows.Forms.DateTimePicker toDatePicker;
         private System.Windows.Forms.DateTimePicker fromDatePicker;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn expensesColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn salariesColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn materialsColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn incomeColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn itemSoldColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn delieveryColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn delieveryColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemSoldColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn incomeColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn materialsColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn salariesColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn expensesColumn;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

@@ -51,7 +51,7 @@ namespace Resurtant_project
             fromDate = fromDatePicker.Text;
             toDate = toDatePicker.Text;
 
-            dataGridView1.DataSource= Cnt.GetProfits(fromDate, toDate);
+            dataGridView2.DataSource= Cnt.GetProfits();
         }
     }
 }

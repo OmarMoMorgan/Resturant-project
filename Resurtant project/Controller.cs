@@ -138,23 +138,23 @@ namespace Resurtant_project
             MessageBox.Show("done");
         }
 
-        public DataTable GetProfits(string fromDate, string toDate)
+        public DataTable GetProfits()
         {
             String StoredProcedureName = StoredProcedures.GetProfits;
-            Dictionary<string, object> Parameters = new Dictionary<string, object>();
-            Parameters.Add("@fromDate", fromDate);
-            Parameters.Add("@toDate", toDate);
-            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+            //Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            //Parameters.Add("@fromDate", fromDate);
+            //Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName, null);
 
         }
 
-        public DataTable GetHistory(string fromDate, string toDate)
+        public DataTable GetHistory()
         {
             String StoredProcedureName = StoredProcedures.GetHistory;
-            Dictionary<string, object> Parameters = new Dictionary<string, object>();
-            Parameters.Add("@fromDate", fromDate);
-            Parameters.Add("@toDate", toDate);
-            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+            //Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            //Parameters.Add("@fromDate", fromDate);
+            //Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName,null);
 
         }
 
