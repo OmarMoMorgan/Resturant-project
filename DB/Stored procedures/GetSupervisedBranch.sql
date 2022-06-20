@@ -14,7 +14,7 @@ CREATE PROCEDURE GetSupervisedBranch
 AS
 BEGIN
 
-Select S.Name
+Select B.BranchName
 From BranchSupervisor AS S, Branch AS B
 Where S.Name=@Sname AND B.BranchSupSSN = S.SSN
 

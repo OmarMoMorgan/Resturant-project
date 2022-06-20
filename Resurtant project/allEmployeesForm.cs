@@ -12,9 +12,12 @@ namespace Resurtant_project
 {
     public partial class allEmployeesForm : Form
     {
+        Controller Cnt;
         public allEmployeesForm()
         {
             InitializeComponent();
+            Cnt= new Controller();
+            dataGridView1.DataSource = Cnt.GetAllEmployees(); 
         }
 
         private void addEmployeeButton_Click(object sender, EventArgs e)

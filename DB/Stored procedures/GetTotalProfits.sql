@@ -8,16 +8,14 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE InsertEmployee 
+CREATE PROCEDURE GetTotalProfits 
 	-- Add the parameters for the stored procedure here
-	@ename varchar(50),
-	@ejob  varchar(20),
-	@edate date,
-	@esalary int,
-	@eid int
+	@fromDate date,
+	@toDate  date
 AS
 BEGIN
-Insert into Employee(EmpName, EmpID, Salary, Role) 
-Values				(@ename, @eid, @esalary, @ejob)
+SELECT SUM(Cost)
+FROM Expenses
+--where ExpDate > @fromDate AND ExpDate<@toDate;
 END
 GO

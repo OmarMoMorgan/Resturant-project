@@ -139,23 +139,23 @@ namespace Resurtant_project
             MessageBox.Show("done");
         }
 
-        public DataTable GetProfits(string fromDate, string toDate)
+        public DataTable GetProfits(/*DateTime fromDate, DateTime toDate*/)
         {
             String StoredProcedureName = StoredProcedures.GetProfits;
-            Dictionary<string, object> Parameters = new Dictionary<string, object>();
-            Parameters.Add("@fromDate", fromDate);
-            Parameters.Add("@toDate", toDate);
-            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+            //Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            //Parameters.Add("@fromDate", fromDate);
+            //Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName, null);
 
         }
 
-        public DataTable GetHistory(string fromDate, string toDate)
+        public DataTable GetHistory()
         {
             String StoredProcedureName = StoredProcedures.GetHistory;
-            Dictionary<string, object> Parameters = new Dictionary<string, object>();
-            Parameters.Add("@fromDate", fromDate);
-            Parameters.Add("@toDate", toDate);
-            return dbMan.ExecuteReader(StoredProcedureName, Parameters);
+            //Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            //Parameters.Add("@fromDate", fromDate);
+            //Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName,null);
 
         }
 
@@ -164,7 +164,17 @@ namespace Resurtant_project
             String StoredProcedureName = StoredProcedures.GetSupervisedBranch;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             Parameters.Add("@Sname", sname);
-            return "branch 1";/*dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString();*/
+            return dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString();
+        }
+
+        public int GetTotalProfits()
+        {
+            String StoredProcedureName = StoredProcedures.GetTotalProfits;
+            //Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            //Parameters.Add("@fromDate", fromDate);
+            //Parameters.Add("@toDate", toDate);
+            return (int)dbMan.ExecuteScalar(StoredProcedureName, null);
+
         }
 
         public void InsertFoodItem(float Price, string name, string MenuName)
@@ -233,6 +243,33 @@ namespace Resurtant_project
         {
             String StoredProcedureName = StoredProcedures.GetTotalExpenses;
             return (int)dbMan.ExecuteScalar(StoredProcedureName, null);
+        }
+
+        public DataTable GetAllEmployees()
+        {
+            String StoredProcedureName = StoredProcedures.GetAllEmployees;
+            //Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            //Parameters.Add("@fromDate", fromDate);
+            //Parameters.Add("@toDate", toDate);
+            return dbMan.ExecuteReader(StoredProcedureName, null);
+
+        }
+
+
+        public void AddMenu(string menuname)
+        {
+            String StoredProcedureName = StoredProcedures.AddMenu;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Menu_Name", menuname);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
+        }
+        public void DeleteMenu(string menuname/*, string MenuName*/)
+        {
+            String StoredProcedureName = StoredProcedures.DeleteMenu;
+            Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            Parameters.Add("@Menu_Name", menuname);
+            //Parameters.Add("@Menu_Name", MenuName);
+            dbMan.ExecuteNonQuery(StoredProcedureName, Parameters);
         }
 
     }

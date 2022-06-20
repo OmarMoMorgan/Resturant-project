@@ -27,7 +27,7 @@ namespace Resurtant_project
             Cnt = new Controller();
 
             supervisorName = sName;
-            //Check which branch does he supervises
+            //Check which branch does he supervise
             branchName = Cnt.GetSupervisedBranch(supervisorName);
             branchNameLabel.Text = branchName;
             capacityLabel.Text += "  30"; //Default, should be changed with some value from the DB.

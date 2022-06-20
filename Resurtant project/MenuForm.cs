@@ -107,5 +107,19 @@ namespace Resurtant_project
             Manager f = new Manager();
             f.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new AddMenu();
+            f.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new DeleteMenu();
+            f.Show();
+        }
     }
 }

@@ -8,16 +8,13 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE InsertEmployee 
+CREATE PROCEDURE GetAllEmployees 
 	-- Add the parameters for the stored procedure here
-	@ename varchar(50),
-	@ejob  varchar(20),
-	@edate date,
-	@esalary int,
-	@eid int
+	--@fromDate varchar(50),
+	--@toDate  date;
 AS
 BEGIN
-Insert into Employee(EmpName, EmpID, Salary, Role) 
-Values				(@ename, @eid, @esalary, @ejob)
+SELECT *
+FROM Employee
 END
 GO

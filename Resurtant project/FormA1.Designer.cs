@@ -30,7 +30,6 @@
         {
             this.branchNameLabel = new System.Windows.Forms.Label();
             this.capacityLabel = new System.Windows.Forms.Label();
-            this.numofEmployeesLabel = new System.Windows.Forms.Label();
             this.historyButton = new System.Windows.Forms.Button();
             this.employeesButton = new System.Windows.Forms.Button();
             this.profitsButton = new System.Windows.Forms.Button();
@@ -38,7 +37,8 @@
             // 
             // branchNameLabel
             // 
-            this.branchNameLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.branchNameLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.branchNameLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.branchNameLabel.Location = new System.Drawing.Point(131, 43);
             this.branchNameLabel.Name = "branchNameLabel";
             this.branchNameLabel.Size = new System.Drawing.Size(146, 29);
@@ -48,27 +48,18 @@
             // 
             // capacityLabel
             // 
-            this.capacityLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.capacityLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.capacityLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.capacityLabel.Location = new System.Drawing.Point(131, 100);
             this.capacityLabel.Name = "capacityLabel";
-            this.capacityLabel.Size = new System.Drawing.Size(146, 29);
+            this.capacityLabel.Size = new System.Drawing.Size(146, 41);
             this.capacityLabel.TabIndex = 1;
             this.capacityLabel.Text = "Capacity";
             this.capacityLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // numofEmployeesLabel
-            // 
-            this.numofEmployeesLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.numofEmployeesLabel.Location = new System.Drawing.Point(131, 163);
-            this.numofEmployeesLabel.Name = "numofEmployeesLabel";
-            this.numofEmployeesLabel.Size = new System.Drawing.Size(146, 29);
-            this.numofEmployeesLabel.TabIndex = 2;
-            this.numofEmployeesLabel.Text = "#Employees";
-            this.numofEmployeesLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // historyButton
             // 
-            this.historyButton.Location = new System.Drawing.Point(62, 249);
+            this.historyButton.Location = new System.Drawing.Point(68, 203);
             this.historyButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.historyButton.Name = "historyButton";
             this.historyButton.Size = new System.Drawing.Size(111, 44);
@@ -79,7 +70,7 @@
             // 
             // employeesButton
             // 
-            this.employeesButton.Location = new System.Drawing.Point(240, 249);
+            this.employeesButton.Location = new System.Drawing.Point(246, 203);
             this.employeesButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.employeesButton.Name = "employeesButton";
             this.employeesButton.Size = new System.Drawing.Size(111, 44);
@@ -90,7 +81,7 @@
             // 
             // profitsButton
             // 
-            this.profitsButton.Location = new System.Drawing.Point(154, 312);
+            this.profitsButton.Location = new System.Drawing.Point(160, 266);
             this.profitsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.profitsButton.Name = "profitsButton";
             this.profitsButton.Size = new System.Drawing.Size(111, 44);
@@ -104,11 +95,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(431, 397);
+            this.ClientSize = new System.Drawing.Size(431, 360);
             this.Controls.Add(this.profitsButton);
             this.Controls.Add(this.employeesButton);
             this.Controls.Add(this.historyButton);
-            this.Controls.Add(this.numofEmployeesLabel);
             this.Controls.Add(this.capacityLabel);
             this.Controls.Add(this.branchNameLabel);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -122,7 +112,6 @@
 
         private System.Windows.Forms.Label branchNameLabel;
         private System.Windows.Forms.Label capacityLabel;
-        private System.Windows.Forms.Label numofEmployeesLabel;
         private System.Windows.Forms.Button historyButton;
         private System.Windows.Forms.Button employeesButton;
         private System.Windows.Forms.Button profitsButton;

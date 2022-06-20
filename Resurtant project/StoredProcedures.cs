@@ -32,5 +32,9 @@ namespace Resurtant_project
         public static string GetTotalSalaries = "GetTotalSalaries";
         public static string GetTotalNumberofBranches = "GetTotalNumberofBranches";
         public static string GetTotalExpenses = "GetTotalExpenses";
+        public static string GetTotalProfits = "GetTotalProfits";
+        public static string GetAllEmployees = "GetAllEmployees";
+        public static string AddMenu = "AddMenu";
+        public static string DeleteMenu = "DeleteMenu";
     }
 }

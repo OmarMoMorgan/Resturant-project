@@ -43,7 +43,9 @@
             // 
             // NameLabel
             // 
-            this.NameLabel.Location = new System.Drawing.Point(26, 63);
+            this.NameLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.NameLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.NameLabel.Location = new System.Drawing.Point(26, 60);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(146, 29);
             this.NameLabel.TabIndex = 1;
@@ -52,7 +54,9 @@
             // 
             // jobLabel
             // 
-            this.jobLabel.Location = new System.Drawing.Point(26, 116);
+            this.jobLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.jobLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.jobLabel.Location = new System.Drawing.Point(26, 113);
             this.jobLabel.Name = "jobLabel";
             this.jobLabel.Size = new System.Drawing.Size(146, 29);
             this.jobLabel.TabIndex = 2;
@@ -61,7 +65,9 @@
             // 
             // joiningDateLabel
             // 
-            this.joiningDateLabel.Location = new System.Drawing.Point(26, 169);
+            this.joiningDateLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.joiningDateLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.joiningDateLabel.Location = new System.Drawing.Point(26, 166);
             this.joiningDateLabel.Name = "joiningDateLabel";
             this.joiningDateLabel.Size = new System.Drawing.Size(146, 29);
             this.joiningDateLabel.TabIndex = 3;
@@ -70,7 +76,9 @@
             // 
             // salaryLabel
             // 
-            this.salaryLabel.Location = new System.Drawing.Point(26, 219);
+            this.salaryLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.salaryLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.salaryLabel.Location = new System.Drawing.Point(26, 216);
             this.salaryLabel.Name = "salaryLabel";
             this.salaryLabel.Size = new System.Drawing.Size(146, 29);
             this.salaryLabel.TabIndex = 4;
@@ -134,7 +142,9 @@
             // 
             // IDLabel
             // 
-            this.IDLabel.Location = new System.Drawing.Point(26, 264);
+            this.IDLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.IDLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.IDLabel.Location = new System.Drawing.Point(26, 261);
             this.IDLabel.Name = "IDLabel";
             this.IDLabel.Size = new System.Drawing.Size(146, 29);
             this.IDLabel.TabIndex = 10;
@@ -161,6 +171,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "addEmplyeeForm";
             this.Text = "addEmplyeeForm";
+            this.Load += new System.EventHandler(this.addEmplyeeForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
