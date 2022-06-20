@@ -163,7 +163,7 @@ namespace Resurtant_project
             String StoredProcedureName = StoredProcedures.GetSupervisedBranch;
             Dictionary<string, object> Parameters = new Dictionary<string, object>();
             Parameters.Add("@Sname", sname);
-            return "branch 1";/*dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString();*/
+            return dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString();
         }
 
         public int GetTotalProfits()

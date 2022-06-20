@@ -10,12 +10,12 @@ GO
 -- =============================================
 CREATE PROCEDURE GetProfits 
 	-- Add the parameters for the stored procedure here
-	@fromDate date,
-	@toDate  date
+	--@fromDate date,
+	--@toDate  date
 AS
 BEGIN
 SELECT ExpName, Cost
 FROM Expenses
-where ExpDate > @fromDate AND ExpDate<@toDate;
+--where ExpDate > @fromDate AND ExpDate<@toDate;
 END
 GO
