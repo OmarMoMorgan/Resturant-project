@@ -14,8 +14,8 @@ namespace Resurtant_project
     {
 
         Controller Cnt;
-        string fromDate;
-        string toDate;
+        //string fromDate;
+        //string toDate;
         public historyForm()
         {
             InitializeComponent();
