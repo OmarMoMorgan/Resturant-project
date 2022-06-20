@@ -38,5 +38,12 @@ namespace Resurtant_project
                /* this.Close();*/
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 F = new Form1();
+            F.Show();
+            this.Close();
+        }
     }
 }

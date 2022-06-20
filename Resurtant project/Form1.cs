@@ -24,7 +24,7 @@ namespace Resurtant_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked)
+            /*if (radioButton1.Checked)
             {
                 Form f = new employeeLogin();
                 f.Show();
@@ -35,7 +35,17 @@ namespace Resurtant_project
                 Form f = new EatingPlaceChoice();
                 f.Show();
                 this.Hide();
-            }
+            }*/
+            CoustmerInfo F = new CoustmerInfo();
+            F.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form f = new employeeLogin();
+            f.Show();
+            this.Hide();
         }
     }
 }

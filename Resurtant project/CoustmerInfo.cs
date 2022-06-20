@@ -21,7 +21,7 @@ namespace Resurtant_project
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            BranchesAvailable F = new BranchesAvailable();
+            Form1 F = new Form1();
             F.Show();
             this.Close();
         }
