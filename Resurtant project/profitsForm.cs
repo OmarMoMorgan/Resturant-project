@@ -14,8 +14,8 @@ namespace Resurtant_project
     {
         Controller Cnt;
 
-        //string fromDate;
-        //string toDate;
+        DateTime fromDate;
+        DateTime toDate;
 
         public profitsForm()
         {
@@ -46,13 +46,12 @@ namespace Resurtant_project
             //incomeLabel.Text += 10000;
             //itemsLabel.Text += 100000;
             //delieveryLabel.Text += 1000000;
-            
 
-            //fromDate = fromDatePicker.Text;
-            //toDate = toDatePicker.Text;
+            fromDate = fromDatePicker.Value;
+            toDate = toDatePicker.Value;
 
-            dataGridView2.DataSource= Cnt.GetProfits();
-            totalLabel.Text += (Cnt.GetTotalProfits()).ToString();
+            dataGridView2.DataSource= Cnt.GetProfits(/*fromDate, toDate*/);
+            totalLabel.Text = (Cnt.GetTotalProfits()).ToString();
         }
     }
 }

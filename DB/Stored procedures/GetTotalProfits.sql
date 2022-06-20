@@ -8,14 +8,14 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE GetProfits 
+CREATE PROCEDURE GetTotalProfits 
 	-- Add the parameters for the stored procedure here
 	@fromDate date,
 	@toDate  date
 AS
 BEGIN
-SELECT ExpName, Cost
+SELECT SUM(Cost)
 FROM Expenses
-where ExpDate > @fromDate AND ExpDate<@toDate;
+--where ExpDate > @fromDate AND ExpDate<@toDate;
 END
 GO

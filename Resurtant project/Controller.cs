@@ -138,7 +138,7 @@ namespace Resurtant_project
             MessageBox.Show("done");
         }
 
-        public DataTable GetProfits()
+        public DataTable GetProfits(/*DateTime fromDate, DateTime toDate*/)
         {
             String StoredProcedureName = StoredProcedures.GetProfits;
             //Dictionary<string, object> Parameters = new Dictionary<string, object>();
