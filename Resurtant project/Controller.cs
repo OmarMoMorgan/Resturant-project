@@ -166,5 +166,15 @@ namespace Resurtant_project
             return "branch 1";/*dbMan.ExecuteScalar(StoredProcedureName, Parameters).ToString();*/
         }
 
+        public int GetTotalProfits()
+        {
+            String StoredProcedureName = StoredProcedures.GetTotalProfits;
+            //Dictionary<string, object> Parameters = new Dictionary<string, object>();
+            //Parameters.Add("@fromDate", fromDate);
+            //Parameters.Add("@toDate", toDate);
+            return (int)dbMan.ExecuteScalar(StoredProcedureName, null);
+
+        }
+
     }
 }

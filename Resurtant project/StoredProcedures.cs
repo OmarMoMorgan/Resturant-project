@@ -22,6 +22,8 @@ namespace Resurtant_project
         public static string removeBranch = "removeBranch";
         public static string GetSupervisedBranch = "GetSupervisedBranch";
         public static string GetLastEmployeeID = "GetLastEmployeeID";
+        public static string GetTotalProfits = "GetTotalProfits";
+
 
     }
 }
