@@ -72,7 +72,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(920, 472);
+            this.ClientSize = new System.Drawing.Size(841, 472);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.totalLabel);
