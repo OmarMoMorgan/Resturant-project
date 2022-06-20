@@ -28,21 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profitsForm));
             this.totalLabel = new System.Windows.Forms.Label();
             this.showButton = new System.Windows.Forms.Button();
-            this.toDateLabel = new System.Windows.Forms.Label();
-            this.fromDateLabel = new System.Windows.Forms.Label();
-            this.toDatePicker = new System.Windows.Forms.DateTimePicker();
-            this.fromDatePicker = new System.Windows.Forms.DateTimePicker();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // totalLabel
             // 
-            this.totalLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.totalLabel.BackColor = System.Drawing.Color.Gray;
+            this.totalLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.totalLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.totalLabel.Location = new System.Drawing.Point(138, 335);
+            this.totalLabel.Location = new System.Drawing.Point(355, 407);
             this.totalLabel.Name = "totalLabel";
             this.totalLabel.Size = new System.Drawing.Size(192, 37);
             this.totalLabel.TabIndex = 6;
@@ -50,51 +48,18 @@
             // 
             // showButton
             // 
-            this.showButton.Location = new System.Drawing.Point(176, 115);
+            this.showButton.Location = new System.Drawing.Point(104, 204);
             this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(170, 29);
+            this.showButton.Size = new System.Drawing.Size(178, 52);
             this.showButton.TabIndex = 11;
             this.showButton.Text = "Show";
             this.showButton.UseVisualStyleBackColor = true;
             this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
-            // toDateLabel
-            // 
-            this.toDateLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.toDateLabel.Location = new System.Drawing.Point(34, 63);
-            this.toDateLabel.Name = "toDateLabel";
-            this.toDateLabel.Size = new System.Drawing.Size(50, 20);
-            this.toDateLabel.TabIndex = 10;
-            this.toDateLabel.Text = "To";
-            // 
-            // fromDateLabel
-            // 
-            this.fromDateLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.fromDateLabel.Location = new System.Drawing.Point(34, 13);
-            this.fromDateLabel.Name = "fromDateLabel";
-            this.fromDateLabel.Size = new System.Drawing.Size(62, 25);
-            this.fromDateLabel.TabIndex = 9;
-            this.fromDateLabel.Text = "From";
-            // 
-            // toDatePicker
-            // 
-            this.toDatePicker.Location = new System.Drawing.Point(118, 56);
-            this.toDatePicker.Name = "toDatePicker";
-            this.toDatePicker.Size = new System.Drawing.Size(250, 27);
-            this.toDatePicker.TabIndex = 8;
-            // 
-            // fromDatePicker
-            // 
-            this.fromDatePicker.Location = new System.Drawing.Point(118, 13);
-            this.fromDatePicker.Name = "fromDatePicker";
-            this.fromDatePicker.Size = new System.Drawing.Size(250, 27);
-            this.fromDatePicker.TabIndex = 7;
-            this.fromDatePicker.ValueChanged += new System.EventHandler(this.fromDatePicker_ValueChanged);
-            // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(470, 56);
+            this.dataGridView2.Location = new System.Drawing.Point(355, 37);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 29;
@@ -106,13 +71,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(1071, 472);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(920, 472);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.showButton);
-            this.Controls.Add(this.toDateLabel);
-            this.Controls.Add(this.fromDateLabel);
-            this.Controls.Add(this.toDatePicker);
-            this.Controls.Add(this.fromDatePicker);
             this.Controls.Add(this.totalLabel);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "profitsForm";
@@ -126,10 +88,6 @@
         #endregion
         private System.Windows.Forms.Label totalLabel;
         private System.Windows.Forms.Button showButton;
-        private System.Windows.Forms.Label toDateLabel;
-        private System.Windows.Forms.Label fromDateLabel;
-        private System.Windows.Forms.DateTimePicker toDatePicker;
-        private System.Windows.Forms.DateTimePicker fromDatePicker;
         private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

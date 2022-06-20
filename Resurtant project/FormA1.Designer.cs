@@ -37,7 +37,8 @@
             // 
             // branchNameLabel
             // 
-            this.branchNameLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.branchNameLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.branchNameLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.branchNameLabel.Location = new System.Drawing.Point(131, 43);
             this.branchNameLabel.Name = "branchNameLabel";
             this.branchNameLabel.Size = new System.Drawing.Size(146, 29);
@@ -47,10 +48,11 @@
             // 
             // capacityLabel
             // 
-            this.capacityLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.capacityLabel.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.capacityLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.capacityLabel.Location = new System.Drawing.Point(131, 100);
             this.capacityLabel.Name = "capacityLabel";
-            this.capacityLabel.Size = new System.Drawing.Size(146, 29);
+            this.capacityLabel.Size = new System.Drawing.Size(146, 41);
             this.capacityLabel.TabIndex = 1;
             this.capacityLabel.Text = "Capacity";
             this.capacityLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

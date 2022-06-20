@@ -35,9 +35,9 @@
             // 
             // showButton
             // 
-            this.showButton.Location = new System.Drawing.Point(405, 418);
+            this.showButton.Location = new System.Drawing.Point(392, 418);
             this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(170, 29);
+            this.showButton.Size = new System.Drawing.Size(185, 44);
             this.showButton.TabIndex = 5;
             this.showButton.Text = "Show";
             this.showButton.UseVisualStyleBackColor = true;

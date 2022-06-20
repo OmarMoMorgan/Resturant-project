@@ -39,5 +39,10 @@ namespace Resurtant_project
             
             
         }
+
+        private void addEmplyeeForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
