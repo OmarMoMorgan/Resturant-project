@@ -22,6 +22,15 @@ namespace Resurtant_project
         public static string removeBranch = "removeBranch";
         public static string GetSupervisedBranch = "GetSupervisedBranch";
         public static string GetLastEmployeeID = "GetLastEmployeeID";
-
+        public static string DeleteFoodItemByName = "DeleteFoodItemByName";
+        public static string EditFoodItemByName = "EditFoodItemByName";
+        public static string InsertFoodItem = "InsertFoodItem";
+        public static string SelectAllMenusNames = "SelectAllMenusNames";
+        public static string ViewAllMenusNames = "ViewAllMenusNames";
+        public static string GetFoodItemNames = "GetFoodItemNames";
+        public static string GetTotalNumberofEmployees = "GetTotalNumberofEmployees";
+        public static string GetTotalSalaries = "GetTotalSalaries";
+        public static string GetTotalNumberofBranches = "GetTotalNumberofBranches";
+        public static string GetTotalExpenses = "GetTotalExpenses";
     }
 }

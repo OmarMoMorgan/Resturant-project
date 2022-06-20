@@ -3,13 +3,13 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-create procedure removeBranch
-@BranchName varchar(50)
+alter procedure removeBranch
+@BranchID int
 as 
 begin 
 delete
 from Branch 
-where BranchName = @BranchName
+where BranchID = @BranchID
 
 END
 GO

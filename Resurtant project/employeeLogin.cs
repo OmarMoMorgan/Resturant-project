@@ -35,7 +35,11 @@ namespace Resurtant_project
             {
                 Form f = new FormA1(name);
                 f.Show();
-               /* this.Close();*/
+                 this.Close();
+            }
+            else if(r == 0)
+            {
+                MessageBox.Show("Invalid username or password");
             }
         }
 

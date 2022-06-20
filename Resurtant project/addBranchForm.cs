@@ -26,7 +26,20 @@ namespace Resurtant_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            contrObj.addBranch(textBox1.Text, int.Parse(textBox2.Text), textBox3.Text, int.Parse(textBox4.Text), int.Parse(textBox5.Text));
+            //contrObj.addBranch(textBox1.Text, int.Parse(textBox2.Text), textBox3.Text, int.Parse(textBox4.Text), int.Parse(textBox5.Text));
+            //MessageBox.Show("Done");
+            int t = contrObj.addBranch(textBox1.Text, int.Parse(textBox2.Text), textBox3.Text, int.Parse(textBox4.Text), int.Parse(textBox5.Text));
+            if (t != 0)
+            {
+                MessageBox.Show("done");
+            }
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Form f = new branchInfo();
+            f.Show();
+            this.Close();
         }
     }
 }
