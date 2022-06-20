@@ -28,79 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.orderIDColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.customerColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.priceColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fromDatePicker = new System.Windows.Forms.DateTimePicker();
             this.toDatePicker = new System.Windows.Forms.DateTimePicker();
             this.fromDateLabel = new System.Windows.Forms.Label();
             this.toDateLabel = new System.Windows.Forms.Label();
             this.showButton = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightGray;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.orderIDColumn,
-            this.dateColumn,
-            this.customerColumn,
-            this.phoneColumn,
-            this.priceColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(154, 139);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(679, 400);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // orderIDColumn
-            // 
-            this.orderIDColumn.HeaderText = "Order ID";
-            this.orderIDColumn.MinimumWidth = 6;
-            this.orderIDColumn.Name = "orderIDColumn";
-            this.orderIDColumn.ReadOnly = true;
-            this.orderIDColumn.Width = 125;
-            // 
-            // dateColumn
-            // 
-            this.dateColumn.HeaderText = "Date";
-            this.dateColumn.MinimumWidth = 6;
-            this.dateColumn.Name = "dateColumn";
-            this.dateColumn.ReadOnly = true;
-            this.dateColumn.Width = 125;
-            // 
-            // customerColumn
-            // 
-            this.customerColumn.HeaderText = "Customer";
-            this.customerColumn.MinimumWidth = 6;
-            this.customerColumn.Name = "customerColumn";
-            this.customerColumn.ReadOnly = true;
-            this.customerColumn.Width = 125;
-            // 
-            // phoneColumn
-            // 
-            this.phoneColumn.HeaderText = "Phone Number";
-            this.phoneColumn.MinimumWidth = 6;
-            this.phoneColumn.Name = "phoneColumn";
-            this.phoneColumn.ReadOnly = true;
-            this.phoneColumn.Width = 125;
-            // 
-            // priceColumn
-            // 
-            this.priceColumn.HeaderText = "Price";
-            this.priceColumn.MinimumWidth = 6;
-            this.priceColumn.Name = "priceColumn";
-            this.priceColumn.ReadOnly = true;
-            this.priceColumn.Width = 125;
             // 
             // fromDatePicker
             // 
@@ -148,7 +83,7 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(45, 156);
+            this.dataGridView2.Location = new System.Drawing.Point(145, 139);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 29;
@@ -167,24 +102,15 @@
             this.Controls.Add(this.fromDateLabel);
             this.Controls.Add(this.toDatePicker);
             this.Controls.Add(this.fromDatePicker);
-            this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "historyForm";
             this.Text = "historyForm";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn orderIDColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn customerColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phoneColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn priceColumn;
         private System.Windows.Forms.DateTimePicker fromDatePicker;
         private System.Windows.Forms.DateTimePicker toDatePicker;
         private System.Windows.Forms.Label fromDateLabel;

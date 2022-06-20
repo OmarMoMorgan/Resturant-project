@@ -19,7 +19,7 @@ namespace Resurtant_project
         public historyForm()
         {
             InitializeComponent();
-            dataGridView1.Hide();
+            //dataGridView1.Hide();
             Cnt= new Controller();
         }
 
