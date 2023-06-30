@@ -43,7 +43,7 @@ namespace Resurtant_project
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 339);
+            this.button1.Location = new System.Drawing.Point(12, 309);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 0;
@@ -54,15 +54,19 @@ namespace Resurtant_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 29);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(14, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 20);
+            this.label1.Size = new System.Drawing.Size(257, 28);
             this.label1.TabIndex = 1;
-            this.label1.Text = "total nmber of employees";
+            this.label1.Text = "Total Number of Employees:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(181, 309);
+            this.button2.Location = new System.Drawing.Point(204, 309);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(229, 29);
             this.button2.TabIndex = 3;
@@ -72,7 +76,7 @@ namespace Resurtant_project
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(257, 29);
+            this.textBox1.Location = new System.Drawing.Point(308, 29);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(125, 27);
@@ -81,15 +85,18 @@ namespace Resurtant_project
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 80);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(14, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.Size = new System.Drawing.Size(129, 28);
             this.label2.TabIndex = 5;
-            this.label2.Text = "total salaries";
+            this.label2.Text = "Total Salaries:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(257, 80);
+            this.textBox2.Location = new System.Drawing.Point(308, 80);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(125, 27);
@@ -98,24 +105,30 @@ namespace Resurtant_project
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 131);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(14, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(154, 20);
+            this.label3.Size = new System.Drawing.Size(240, 28);
             this.label3.TabIndex = 7;
-            this.label3.Text = "total num of branches";
+            this.label3.Text = "Total Number of Branches:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 178);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(14, 178);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 20);
+            this.label4.Size = new System.Drawing.Size(141, 28);
             this.label4.TabIndex = 9;
-            this.label4.Text = "total expensess";
+            this.label4.Text = "Total Expenses:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(257, 131);
+            this.textBox3.Location = new System.Drawing.Point(308, 131);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(125, 27);
@@ -123,7 +136,7 @@ namespace Resurtant_project
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(257, 178);
+            this.textBox4.Location = new System.Drawing.Point(308, 178);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(125, 27);
@@ -133,6 +146,7 @@ namespace Resurtant_project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Resurtant_project.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(462, 370);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);

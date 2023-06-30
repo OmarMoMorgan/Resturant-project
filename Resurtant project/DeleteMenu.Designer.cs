@@ -37,7 +37,7 @@ namespace Resurtant_project
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(224, 203);
+            this.button1.Location = new System.Drawing.Point(307, 160);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 29);
             this.button1.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace Resurtant_project
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(53, 203);
+            this.button2.Location = new System.Drawing.Point(35, 160);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 29);
             this.button2.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace Resurtant_project
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(237, 63);
+            this.comboBox1.Location = new System.Drawing.Point(332, 63);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 28);
             this.comboBox1.TabIndex = 2;
@@ -66,17 +66,22 @@ namespace Resurtant_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 63);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(35, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 20);
+            this.label1.Size = new System.Drawing.Size(263, 26);
             this.label1.TabIndex = 3;
-            this.label1.Text = "choose menu to delete";
+            this.label1.Text = "Choose the Menu to Delete";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // DeleteMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 292);
+            this.BackgroundImage = global::Resurtant_project.Properties.Resources.Background;
+            this.ClientSize = new System.Drawing.Size(513, 243);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);

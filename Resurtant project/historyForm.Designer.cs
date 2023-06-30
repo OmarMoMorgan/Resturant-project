@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(historyForm));
             this.showButton = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -35,7 +36,7 @@
             // 
             // showButton
             // 
-            this.showButton.Location = new System.Drawing.Point(392, 418);
+            this.showButton.Location = new System.Drawing.Point(288, 460);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(185, 44);
             this.showButton.TabIndex = 5;
@@ -46,7 +47,7 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(222, 86);
+            this.dataGridView2.Location = new System.Drawing.Point(99, 141);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 29;
@@ -58,7 +59,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(911, 567);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(843, 567);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.showButton);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);

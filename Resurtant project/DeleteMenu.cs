@@ -34,5 +34,10 @@ namespace Resurtant_project
             control.DeleteMenu(comboBox1.Text);
             MessageBox.Show("menu deleted");
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

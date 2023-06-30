@@ -1,0 +1,144 @@
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.exe
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.deps.json
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.runtimeconfig.json
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.runtimeconfig.dev.json
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\ref\Resurtant project.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.pdb
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.addBranchForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.AddItemForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.BranchesAvailable.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.branchInfo.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.CoustmerInfo.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.EatingPlaceChoice.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.EditItemForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Form1.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Manager.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.MenuForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.OrderRecipt.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.removeBranchForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.RemoveItemForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.GenerateResource.cache
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.AssemblyInfoInputs.cache
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.AssemblyInfo.cs
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.CoreCompileInputs.cache
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.CopyComplete
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\ref\Resurtant project.dll
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.pdb
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.genruntimeconfig.cache
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.NewOrderingMenu.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.employeeLogin.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.addEmplyeeForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.allEmployeesForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.FormA1.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.historyForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.profitsForm.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.AssemblyReference.cache
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.statistics.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Properties.Resources.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.AddMenu.resources
+D:\Git_projects\Cie 206\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.DeleteMenu.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.exe
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.deps.json
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.runtimeconfig.json
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.runtimeconfig.dev.json
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\ref\Resurtant project.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.pdb
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.AssemblyReference.cache
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.addBranchForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.addEmplyeeForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.AddItemForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.AddMenu.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.allEmployeesForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.BranchesAvailable.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.branchInfo.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.CoustmerInfo.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.DeleteMenu.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.EatingPlaceChoice.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.EditItemForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.employeeLogin.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Form1.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.FormA1.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.historyForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Manager.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.MenuForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.NewOrderingMenu.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.OrderRecipt.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.profitsForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Properties.Resources.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.removeBranchForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.RemoveItemForm.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.statistics.resources
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.GenerateResource.cache
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.GeneratedMSBuildEditorConfig.editorconfig
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.AssemblyInfoInputs.cache
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.AssemblyInfo.cs
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.CoreCompileInputs.cache
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.CopyComplete
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\ref\Resurtant project.dll
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.pdb
+F:\ForDesign\Resurtant project (1)\Resurtant project\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.genruntimeconfig.cache
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.exe
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.deps.json
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.runtimeconfig.json
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.runtimeconfig.dev.json
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\ref\Resurtant project.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\Resurtant project.pdb
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.AssemblyReference.cache
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.addBranchForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.addEmplyeeForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.AddItemForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.AddMenu.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.allEmployeesForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.BranchesAvailable.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.branchInfo.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.CoustmerInfo.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.DeleteMenu.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.EatingPlaceChoice.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.EditItemForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.employeeLogin.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Form1.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.FormA1.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.historyForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Manager.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.MenuForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.NewOrderingMenu.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.OrderRecipt.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.profitsForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.Properties.Resources.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.removeBranchForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.RemoveItemForm.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant_project.statistics.resources
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.GenerateResource.cache
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.AssemblyInfoInputs.cache
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.AssemblyInfo.cs
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.CoreCompileInputs.cache
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.csproj.CopyComplete
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\ref\Resurtant project.dll
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.pdb
+C:\Users\WIN10\Desktop\db project backup\after design\Resurtant project\obj\Debug\net5.0-windows\Resurtant project.genruntimeconfig.cache
