@@ -29,6 +29,7 @@ namespace Resurtant_project
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddItemForm));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,30 +51,36 @@ namespace Resurtant_project
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 190);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(93, 195);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 20);
+            this.label4.Size = new System.Drawing.Size(84, 30);
             this.label4.TabIndex = 49;
             this.label4.Text = "Price";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 148);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(93, 148);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 20);
+            this.label3.Size = new System.Drawing.Size(126, 30);
             this.label3.TabIndex = 48;
             this.label3.Text = "Item Name";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(21, 52);
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label5.Location = new System.Drawing.Point(20, 47);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 20);
+            this.label5.Size = new System.Drawing.Size(175, 30);
             this.label5.TabIndex = 46;
-            this.label5.Text = "choose Menu";
+            this.label5.Text = "Choose Menu";
             // 
             // textBox3
             // 
@@ -85,16 +92,16 @@ namespace Resurtant_project
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(219, 190);
+            this.textBox2.Location = new System.Drawing.Point(219, 200);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(167, 27);
             this.textBox2.TabIndex = 44;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(183, 247);
+            this.button2.Location = new System.Drawing.Point(180, 261);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(249, 53);
+            this.button2.Size = new System.Drawing.Size(244, 48);
             this.button2.TabIndex = 43;
             this.button2.Text = "Add Food Item to menu";
             this.button2.UseVisualStyleBackColor = true;
@@ -115,6 +122,7 @@ namespace Resurtant_project
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(436, 321);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);

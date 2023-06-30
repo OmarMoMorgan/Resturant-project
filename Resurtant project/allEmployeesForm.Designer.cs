@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(allEmployeesForm));
             this.addEmployeeButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -35,7 +36,7 @@
             // 
             // addEmployeeButton
             // 
-            this.addEmployeeButton.Location = new System.Drawing.Point(233, 380);
+            this.addEmployeeButton.Location = new System.Drawing.Point(266, 380);
             this.addEmployeeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addEmployeeButton.Name = "addEmployeeButton";
             this.addEmployeeButton.Size = new System.Drawing.Size(171, 47);
@@ -59,6 +60,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(656, 451);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.addEmployeeButton);

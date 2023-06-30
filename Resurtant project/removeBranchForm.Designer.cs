@@ -48,16 +48,18 @@ namespace Resurtant_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(113, 108);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(127, 104);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 25);
+            this.label1.Size = new System.Drawing.Size(111, 31);
             this.label1.TabIndex = 8;
-            this.label1.Text = "branch ID";
+            this.label1.Text = "Branch ID";
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(58, 212);
+            this.BackButton.Location = new System.Drawing.Point(127, 217);
             this.BackButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(86, 31);
@@ -69,7 +71,7 @@ namespace Resurtant_project
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(320, 200);
+            this.button1.Location = new System.Drawing.Point(357, 200);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 48);
@@ -83,6 +85,7 @@ namespace Resurtant_project
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
+            this.BackgroundImage = global::Resurtant_project.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(582, 363);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.button1);

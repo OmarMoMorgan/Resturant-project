@@ -45,7 +45,7 @@ namespace Resurtant_project
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(363, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(419, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
@@ -65,24 +65,27 @@ namespace Resurtant_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 39);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(26, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 20);
+            this.label1.Size = new System.Drawing.Size(290, 33);
             this.label1.TabIndex = 24;
-            this.label1.Text = "choose menu to view";
+            this.label1.Text = "Choose a Menu to View:";
             // 
             // comboBox1
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(26, 71);
+            this.comboBox1.Location = new System.Drawing.Point(26, 60);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 28);
             this.comboBox1.TabIndex = 23;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(28, 286);
+            this.button4.Location = new System.Drawing.Point(26, 273);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(219, 45);
             this.button4.TabIndex = 22;
@@ -92,7 +95,7 @@ namespace Resurtant_project
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(260, 286);
+            this.button3.Location = new System.Drawing.Point(258, 273);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(213, 45);
             this.button3.TabIndex = 21;
@@ -102,7 +105,7 @@ namespace Resurtant_project
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(506, 286);
+            this.button2.Location = new System.Drawing.Point(504, 273);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(213, 45);
             this.button2.TabIndex = 20;
@@ -112,11 +115,11 @@ namespace Resurtant_project
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(15, 350);
+            this.button1.Location = new System.Drawing.Point(26, 336);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 19;
-            this.button1.Text = "back";
+            this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -126,7 +129,7 @@ namespace Resurtant_project
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(219, 41);
             this.button6.TabIndex = 27;
-            this.button6.Text = "add menu";
+            this.button6.Text = "Add Menu";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -136,7 +139,7 @@ namespace Resurtant_project
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(219, 41);
             this.button7.TabIndex = 28;
-            this.button7.Text = "delete menu";
+            this.button7.Text = "Delete Menu";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -145,6 +148,7 @@ namespace Resurtant_project
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
+            this.BackgroundImage = global::Resurtant_project.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(753, 399);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);

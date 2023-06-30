@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addEmplyeeForm));
             this.NameLabel = new System.Windows.Forms.Label();
             this.jobLabel = new System.Windows.Forms.Label();
             this.joiningDateLabel = new System.Windows.Forms.Label();
@@ -156,6 +157,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(336, 381);
             this.Controls.Add(this.IDTextBox);
             this.Controls.Add(this.IDLabel);

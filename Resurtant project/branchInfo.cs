@@ -50,6 +50,7 @@ namespace Resurtant_project
         private void BackButton_Click(object sender, EventArgs e)
         {
             Form f = new Manager();f.Show();
+            this.Close();
         }
     }
 }

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="addBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addEmplyeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="allEmployeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BranchesAvailable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="branchInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CoustmerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeleteMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EatingPlaceChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="employeeLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormA1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="historyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NewOrderingMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OrderRecipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="profitsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="removeBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RemoveItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="MenuForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

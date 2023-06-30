@@ -36,18 +36,20 @@ namespace Resurtant_project
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(212, 310);
+            this.BackButton.Location = new System.Drawing.Point(183, 206);
+            this.BackButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(75, 23);
+            this.BackButton.Size = new System.Drawing.Size(86, 31);
             this.BackButton.TabIndex = 6;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(388, 310);
+            this.NextButton.Location = new System.Drawing.Point(310, 206);
+            this.NextButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(75, 23);
+            this.NextButton.Size = new System.Drawing.Size(86, 31);
             this.NextButton.TabIndex = 5;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
@@ -56,19 +58,22 @@ namespace Resurtant_project
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(257, 115);
+            this.comboBox1.Location = new System.Drawing.Point(183, 80);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(187, 23);
+            this.comboBox1.Size = new System.Drawing.Size(213, 28);
             this.comboBox1.TabIndex = 7;
             // 
             // BranchesAvailable
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Resurtant_project.Properties.Resources.Background;
+            this.ClientSize = new System.Drawing.Size(577, 288);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.NextButton);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "BranchesAvailable";
             this.Text = "BranchesAvailable";
             this.ResumeLayout(false);

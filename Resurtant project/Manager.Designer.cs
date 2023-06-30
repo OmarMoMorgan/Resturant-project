@@ -51,7 +51,7 @@ namespace Resurtant_project
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(261, 61);
             this.button2.TabIndex = 11;
-            this.button2.Text = "menu";
+            this.button2.Text = "Menu";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -61,7 +61,7 @@ namespace Resurtant_project
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 10;
-            this.button1.Text = "back";
+            this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -80,7 +80,7 @@ namespace Resurtant_project
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(301, 273);
+            this.ClientSize = new System.Drawing.Size(283, 273);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

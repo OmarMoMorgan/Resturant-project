@@ -47,7 +47,7 @@ namespace Resurtant_project
             controllerObj.InsertCInfo(PubVariables.CurrentCoustmerPhone, PubVariables.CurrentCoustmerName, PubVariables.CurrentCoustmerAdress);
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
-                MessageBox.Show(dataGridView1.Rows[i].Cells[0].Value.ToString());
+                //MessageBox.Show(dataGridView1.Rows[i].Cells[0].Value.ToString());
                 controllerObj.InsertTupleOrderR(n, PubVariables.CurrentCoustmerPhone, dataGridView1.Rows[i].Cells[0].Value.ToString() , Int16.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString()));
             }
             MessageBox.Show("order complete");
